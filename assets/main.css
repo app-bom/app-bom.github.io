@@ -153,6 +153,8 @@ a:hover, a:focus {
     padding: 0;
 }
 
+
+
 .wp-caption-text,
 .sticky,
 .gallery-caption,
@@ -719,6 +721,7 @@ a:hover, a:focus {
     bottom: -19px;
     left: 0;
 }
+
 
 #testimonials .section-content .testimonials-carousel .carousel-testimonial .testimonial-meta {
     width: 100%;
@@ -3212,4 +3215,22 @@ a.illdy-top.is-active {
 a.illdy-top i {
     font-size: 25px;
     line-height: 36px;
+}
+
+.btn_fixed{
+    height: 8rem;
+    width: 8rem;
+    background-color: rgba(241, 210, 4, 0.9);
+    position: fixed;
+    right: 20px;
+    z-index: 9;
+    bottom: 20px;
+    visibility: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn_fixed.visible{
+    visibility: visible;
 }
