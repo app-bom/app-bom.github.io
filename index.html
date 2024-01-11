@@ -1,1097 +1,791 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
-  <head>
-    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
-    <meta charset="UTF-8" />
-    <meta
-      name="viewport"
-      content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no"
-    />
-    <meta name="robots" content="noindex, nofollow" />
-    
-    <link rel="icon" href="https://appbom.com.br/assets/layout/images/front-page/favicon.png" type="image/x-icon"/>
-    <script src="./index.js" defer></script>
-    <title>APP BOM</title>
 
-    <meta
-      name="robots"
-      content="noindex, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1"
-    />
-    <meta property="og:locale" content="pt_BR" />
-    <meta property="og:type" content="website" />
-    <meta property="og:title" content="APP B.O.M." />
-    <meta property="og:url" content="https://www.appbom.com.br" />
-    <meta property="og:site_name" content="APP B.O.M" />
-    <meta name="twitter:card" content="summary" />
-    <meta name="google-site-verification" content="dfhTSirmj6kB9RgzXUhqIl5Z5AF7N6rT0aCkG1cq38g" />
-    <link rel="dns-prefetch" href="https://fonts.googleapis.com/" />
+<head>
+  <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" />
+  <meta name="robots" content="noindex, nofollow" />
 
-    <!-- Google tag (gtag.js) -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-1LD2J7R2X8"></script>
-    <script src="https://code.jquery.com/jquery-3.7.1.min.js" defer></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
+  <link rel="icon" href="https://appbom.com.br/assets/layout/images/front-page/favicon.png" type="image/x-icon" />
+  <script src="./index.js" defer></script>
+  <title>APP BOM</title>
 
-      gtag('config', 'G-1LD2J7R2X8');
-    </script>
+  <meta name="robots" content="noindex, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
+  <meta property="og:locale" content="pt_BR" />
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="APP B.O.M." />
+  <meta property="og:url" content="https://www.appbom.com.br" />
+  <meta property="og:site_name" content="APP B.O.M" />
+  <meta name="twitter:card" content="summary" />
+  <meta name="google-site-verification" content="dfhTSirmj6kB9RgzXUhqIl5Z5AF7N6rT0aCkG1cq38g" />
+  <link rel="dns-prefetch" href="https://fonts.googleapis.com/" />
 
-    <style type="text/css">
-      img.wp-smiley,
-      img.emoji {
-        display: inline !important;
-        border: none !important;
-        box-shadow: none !important;
-        height: 1em !important;
-        width: 1em !important;
-        margin: 0 0.07em !important;
-        vertical-align: -0.1em !important;
-        background: none !important;
-        padding: 0 !important;
-      }
-    </style>
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-1LD2J7R2X8"></script>
+  <script src="https://code.jquery.com/jquery-3.7.1.min.js" defer></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
 
-    <link
-      rel="stylesheet"
-      id="wp-block-library-css"
-      href="assets/style.min.css"
-      type="text/css"
-      media="all"
-    />
+    gtag('config', 'G-1LD2J7R2X8');
+  </script>
 
-    <style id="classic-theme-styles-inline-css" type="text/css">
-      .wp-block-button__link {
-        color: #fff;
-        background-color: #32373c;
-        border-radius: 9999px;
-        box-shadow: none;
-        text-decoration: none;
-        padding: calc(0.667em + 2px) calc(1.333em + 2px);
-        font-size: 1.125em;
-      }
-      .wp-block-file__button {
-        background: #32373c;
-        color: #fff;
-        text-decoration: none;
-      }
-    </style>
+  <style type="text/css">
+    img.wp-smiley,
+    img.emoji {
+      display: inline !important;
+      border: none !important;
+      box-shadow: none !important;
+      height: 1em !important;
+      width: 1em !important;
+      margin: 0 0.07em !important;
+      vertical-align: -0.1em !important;
+      background: none !important;
+      padding: 0 !important;
+    }
+  </style>
 
-    <link
-      rel="stylesheet"
-      id="wp-block-library-css"
-      href="assets/layout/css/global.css"
-      type="text/css"
-      media="all"
-    />
+  <link rel="stylesheet" id="wp-block-library-css" href="assets/style.min.css" type="text/css" media="all" />
 
-    <link
-      rel="stylesheet"
-      id="contact-form-7-css"
-      href="assets/styles.css"
-      type="text/css"
-      media="all"
-    />
-    <link
-      rel="stylesheet"
-      id="kiwi-icomoon-css"
-      href="assets/style_002.css"
-      type="text/css"
-      media="all"
-    />
-    <link
-      rel="stylesheet"
-      id="illdy-pace-css"
-      href="assets/layout/css/pace.min.css"
-      type="text/css"
-      media="all"
-    />
-    <link
-      rel="stylesheet"
-      id="bootstrap-css"
-      href="assets/layout/css/bootstrap.min.css"
-      type="text/css"
-      media="all"
-    />
-    <link
-      rel="stylesheet"
-      id="bootstrap-theme-css"
-      href="assets/layout/css/bootstrap-theme.min.css"
-      type="text/css"
-      media="all"
-    />
-    <link
-      rel="stylesheet"
-      id="font-awesome-css"
-      href="assets/layout/css/font-awesome.min.css"
-      type="text/css"
-      media="all"
-    />
-    <link
-      rel="stylesheet"
-      id="owl-carousel-css"
-      href="assets/layout/css/owl-carousel.min.css"
-      type="text/css"
-      media="all"
-    />
-    <link
-      rel="stylesheet"
-      id="illdy-main-css"
-      href="assets/main.css"
-      type="text/css"
-      media="all"
-    />
-    <link
-      rel="stylesheet"
-      id="illdy-custom-css"
-      href="assets/custom.css"
-      type="text/css"
-      media="all"
-    />
-    <link
-      rel="stylesheet"
-      id="illdy-style-css"
-      href="assets/style.css"
-      type="text/css"
-      media="all"
-    />
+  <style id="classic-theme-styles-inline-css" type="text/css">
+    .wp-block-button__link {
+      color: #fff;
+      background-color: #32373c;
+      border-radius: 9999px;
+      box-shadow: none;
+      text-decoration: none;
+      padding: calc(0.667em + 2px) calc(1.333em + 2px);
+      font-size: 1.125em;
+    }
 
-    <script
-      type="text/javascript"
-      src="assets/jquery.min.js"
-      id="jquery-core-js"
-    ></script>
-    <script
-      type="text/javascript"
-      src="assets/jquery-migrate.min.js"
-      id="jquery-migrate-js"
-    ></script>
-    <script>
-      window.$ = jQuery;
-    </script>
-    <script type="text/javascript" id="illdy-pace-js-extra">
-      /* <![CDATA[ */
-      var paceOptions = { restartOnRequestAfter: "0", restartOnPushState: "0" };
-      /* ]]> */
-    </script>
-    <script
-      type="text/javascript"
-      src="assets/layout/js/pace/pace.min.js"
-      id="illdy-pace-js"
-    ></script>
-    <script
-      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.11.8/umd/popper.min.js"
-      integrity="sha512-TPh2Oxlg1zp+kz3nFA0C5vVC6leG/6mm1z9+mA81MI5eaUVqasPLO8Cuk4gMF4gUfP5etR73rgU/8PNMsSesoQ=="
-      crossorigin="anonymous"
-      referrerpolicy="no-referrer"
-    ></script>
+    .wp-block-file__button {
+      background: #32373c;
+      color: #fff;
+      text-decoration: none;
+    }
+  </style>
 
-    <style type="text/css">
-      .pace .pace-progress {
-        background-color: #f1d204;
-        color: #f1d204;
-      }
-      .pace .pace-activity {
-        box-shadow: inset 0 0 0 2px #f1d204, inset 0 0 0 7px #ffffff;
-      }
-      .pace-overlay {
-        background-color: #ffffff;
-      }
-    </style>
-    <style type="text/css">
-      .recentcomments a {
-        display: inline !important;
-        padding: 0 !important;  
-        margin: 0 !important;
-      }
-    </style>
-    <style type="text/css" id="illdy-about-section-css">
-      #header.header-front-page {
-        background-image: url(https://appbom.com.br/assets/layout/images/front-page/bg-home.jpg) !important;
-      }
-      #header.header-front-page .bottom-header .header-button-one {
-        background-color: rgba(0, 0, 0, 0.2);
-      }
-      #header.header-front-page .bottom-header .header-button-one:hover,
-      #header.header-front-page .bottom-header .header-button-one:focus {
-        background-color: rgba(0, 0, 0, 0.1);
-      }
-      #header.header-front-page .bottom-header h1 {
-        color: #ffffff;
-      }
-      #header.header-front-page .bottom-header .section-description {
-        color: #ffffff;
-      }
-    </style>
-    <style type="text/css" id="illdy-projects-section-css">
-      #projects:before {
-        background-image: url(https://149842022.v2.pressablecdn.com/illdy/wp-content/themes/illdy/layout/images/front-page/pattern.png) !important;
-      }
-      #projects:before {
-        background-size: auto !important;
-      }
-      #projects:before {
-        background-repeat: repeat !important;
-      }
-    </style>
-    <style type="text/css" id="illdy-team-section-css">
-      #team:before {
-        background-image: url(https://149842022.v2.pressablecdn.com/illdy/wp-content/themes/illdy/layout/images/front-page/pattern.png) !important;
-      }
-      #team:before {
-        background-size: auto !important;
-      }
-      #team:before {
-        background-repeat: repeat !important;
-      }
-    </style>
-    <style type="text/css" id="illdy-testimonials-section-css">
-      #testimonials:before {
-        background-image: url(https://149842022.v2.pressablecdn.com/illdy/wp-content/themes/illdy/layout/images/testiomnials-background.jpg) !important;
-      }
-      #testimonials:before {
-        background-attachment: scroll !important;
-      }
-    </style>
-    <link crossorigin="anonymous" rel="stylesheet" id="illdy-google-fonts-css" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,900,700,300,300italic|Lato:300,400,700,900|Poppins:300,400,500,600,700" type="text/css" media="all">
-  </head>
-  <body
-    class="home page-template-default page page-id-126 wp-custom-logo elementor-default elementor-kit-297 pace-done"
-  >
-    <div class="pace pace-inactive">
+  <link rel="stylesheet" id="wp-block-library-css" href="assets/layout/css/global.css" type="text/css" media="all" />
 
-      <div
-        class="pace-progress"
-        style="transform: translate3d(100%, 0px, 0px)"
-        data-progress-text="100%"
-        data-progress="99"
-      >
-        <div class="pace-progress-inner"></div>
-      </div>
-      <div class="pace-activity"></div>
+  <link rel="stylesheet" id="contact-form-7-css" href="assets/styles.css" type="text/css" media="all" />
+  <link rel="stylesheet" id="kiwi-icomoon-css" href="assets/style_002.css" type="text/css" media="all" />
+  <link rel="stylesheet" id="illdy-pace-css" href="assets/layout/css/pace.min.css" type="text/css" media="all" />
+  <link rel="stylesheet" id="bootstrap-css" href="assets/layout/css/bootstrap.min.css" type="text/css" media="all" />
+  <link rel="stylesheet" id="bootstrap-theme-css" href="assets/layout/css/bootstrap-theme.min.css" type="text/css"
+    media="all" />
+  <link rel="stylesheet" id="font-awesome-css" href="assets/layout/css/font-awesome.min.css" type="text/css"
+    media="all" />
+  <link rel="stylesheet" id="owl-carousel-css" href="assets/layout/css/owl-carousel.min.css" type="text/css"
+    media="all" />
+  <link rel="stylesheet" id="illdy-main-css" href="assets/main.css" type="text/css" media="all" />
+  <link rel="stylesheet" id="illdy-custom-css" href="assets/custom.css" type="text/css" media="all" />
+  <link rel="stylesheet" id="illdy-style-css" href="assets/style.css" type="text/css" media="all" />
+
+  <script type="text/javascript" src="assets/jquery.min.js" id="jquery-core-js"></script>
+  <script type="text/javascript" src="assets/jquery-migrate.min.js" id="jquery-migrate-js"></script>
+  <script>
+    window.$ = jQuery;
+  </script>
+  <script type="text/javascript" id="illdy-pace-js-extra">
+    /* <![CDATA[ */
+    var paceOptions = { restartOnRequestAfter: "0", restartOnPushState: "0" };
+    /* ]]> */
+  </script>
+  <script type="text/javascript" src="assets/layout/js/pace/pace.min.js" id="illdy-pace-js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.11.8/umd/popper.min.js"
+    integrity="sha512-TPh2Oxlg1zp+kz3nFA0C5vVC6leG/6mm1z9+mA81MI5eaUVqasPLO8Cuk4gMF4gUfP5etR73rgU/8PNMsSesoQ=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+  <style type="text/css">
+    .pace .pace-progress {
+      background-color: #f1d204;
+      color: #f1d204;
+    }
+
+    .pace .pace-activity {
+      box-shadow: inset 0 0 0 2px #f1d204, inset 0 0 0 7px #ffffff;
+    }
+
+    .pace-overlay {
+      background-color: #ffffff;
+    }
+  </style>
+  <style type="text/css">
+    .recentcomments a {
+      display: inline !important;
+      padding: 0 !important;
+      margin: 0 !important;
+    }
+  </style>
+  <style type="text/css" id="illdy-about-section-css">
+    #header.header-front-page {
+      background-image: url(https://appbom.com.br/assets/layout/images/front-page/bg-home.jpg) !important;
+    }
+
+    #header.header-front-page .bottom-header .header-button-one {
+      background-color: rgba(0, 0, 0, 0.2);
+    }
+
+    #header.header-front-page .bottom-header .header-button-one:hover,
+    #header.header-front-page .bottom-header .header-button-one:focus {
+      background-color: rgba(0, 0, 0, 0.1);
+    }
+
+    #header.header-front-page .bottom-header h1 {
+      color: #ffffff;
+    }
+
+    #header.header-front-page .bottom-header .section-description {
+      color: #ffffff;
+    }
+  </style>
+  <style type="text/css" id="illdy-projects-section-css">
+    #projects:before {
+      background-image: url(https://149842022.v2.pressablecdn.com/illdy/wp-content/themes/illdy/layout/images/front-page/pattern.png) !important;
+    }
+
+    #projects:before {
+      background-size: auto !important;
+    }
+
+    #projects:before {
+      background-repeat: repeat !important;
+    }
+  </style>
+  <style type="text/css" id="illdy-team-section-css">
+    #team:before {
+      background-image: url(https://149842022.v2.pressablecdn.com/illdy/wp-content/themes/illdy/layout/images/front-page/pattern.png) !important;
+    }
+
+    #team:before {
+      background-size: auto !important;
+    }
+
+    #team:before {
+      background-repeat: repeat !important;
+    }
+  </style>
+  <style type="text/css" id="illdy-testimonials-section-css">
+    #testimonials:before {
+      background-image: url(https://149842022.v2.pressablecdn.com/illdy/wp-content/themes/illdy/layout/images/testiomnials-background.jpg) !important;
+    }
+
+    #testimonials:before {
+      background-attachment: scroll !important;
+    }
+  </style>
+  <link crossorigin="anonymous" rel="stylesheet" id="illdy-google-fonts-css"
+    href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,900,700,300,300italic|Lato:300,400,700,900|Poppins:300,400,500,600,700"
+    type="text/css" media="all">
+</head>
+
+<body class="home page-template-default page page-id-126 wp-custom-logo elementor-default elementor-kit-297 pace-done">
+  <div class="pace pace-inactive">
+
+    <div class="pace-progress" style="transform: translate3d(100%, 0px, 0px)" data-progress-text="100%"
+      data-progress="99">
+      <div class="pace-progress-inner"></div>
     </div>
-    <div class="pace-overlay"></div>
-    <header
-      id="header"
-      class="header-front-page"
-      style="
+    <div class="pace-activity"></div>
+  </div>
+  <div class="pace-overlay"></div>
+  <header id="header" class="header-front-page" style="
         background-image: url(https://149842022.v2.pressablecdn.com/illdy/wp-content/themes/illdy/layout/images/front-page/front-page-header.jpg);
         background-attachment: fixed;
-      "
-    >
-      <div class="top-header">
+      ">
+    <div class="top-header">
 
-        <div class="container" id="topMenu">
-          <div class="row">
-            <div class="col-sm-4 col-xs-8">
-              <a href="https://www.appbom.com.br/" title="Aplicativo B.O.M">
-                <img
-                  class="header-logo-img"
-                  src="https://appbom.com.br/assets/layout/images/front-page/logo_bom.png"
-                  width=""
-                />
-              </a>
+      <div class="container" id="topMenu">
+        <div class="row">
+          <div class="col-sm-4 col-xs-8">
+            <a href="https://www.appbom.com.br/" title="Aplicativo B.O.M">
+              <img class="header-logo-img" src="https://appbom.com.br/assets/layout/images/front-page/logo_bom.png"
+                width="" />
+            </a>
+          </div>
+
+
+          <div class="col-sm-8 col-xs-4">
+            <nav class="header-navigation">
+              <ul id="menu-illdy-main" class="clearfix">
+                <li id="menu-item-16"
+                  class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home menu-item-16">
+                  <a aria-current="page" id="btn_projeto" class="btn_projeto">O Projeto</a>
+                </li>
+
+                <li id="menu-item-18"
+                  class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home menu-item-17">
+                  <a id="btn_problema" class="btn_problema" aria-current="page">O Problema</a>
+                </li>
+                <li id="menu-item-19"
+                  class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home menu-item-18">
+                  <a id="btn_solucao" class="btn_solucao" aria-current="page">A Solução</a>
+                </li>
+                <li id="menu-item-20"
+                  class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home menu-item-19">
+                  <a id="btn_noticias" class="btn_noticias" aria-current="page">Últimas Notícias</a>
+                </li>
+                <li id="menu-item-21"
+                  class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home menu-item-20">
+                  <a id="btn_time" class="btn_time" aria-current="page">Nosso Time</a>
+                </li>
+                <li id="menu-item-22"
+                  class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home menu-item-21">
+                  <a id="btn_contato" class="btn_contato" aria-current="page">Contatos</a>
+                </li>
+              </ul>
+            </nav>
+            <button class="open-responsive-menu">
+              <i class="fa fa-bars"></i>
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <nav class="responsive-menu">
+      <ul>
+        <li
+          class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home menu-item-16">
+          <a id="btn_projeto" class="btn_projeto" href="#" aria-current="page">O Projeto</a>
+        </li>
+
+        <li
+          class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home menu-item-17">
+          <a id="btn_problema" class="btn_problema" aria-current="page">O Problema</a>
+        </li>
+        <li
+          class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home menu-item-18">
+          <a href="#" class="btn_solucao" aria-current="page">A Solução</a>
+        </li>
+        <li
+          class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home menu-item-19">
+          <a class="btn_noticias" aria-current="page">Últimas Notícias</a>
+        </li>
+
+        <li
+          class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home menu-item-20">
+          <a class="btn_time" aria-current="page">Nosso Time</a>
+        </li>
+        <li
+          class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home menu-item-21">
+          <a class="btn_contato" aria-current="page">Contatos</a>
+        </li>
+      </ul>
+    </nav>
+    <div class="btn_fixed">
+      <svg xmlns="http://www.w3.org/2000/svg" width="60" height="60" fill="black" class="bi bi-chevron-up"
+        viewBox="0 0 16 16">
+        <path fill-rule="evenodd"
+          d="M7.646 4.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1-.708.708L8 5.707l-5.646 5.647a.5.5 0 0 1-.708-.708z" />
+      </svg>
+    </div>
+
+    <div class="bottom-header front-page">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12">
+            <h1>
+              Bike<span class="span-dot">.</span>Ônibus<span class="span-dot">.</span>Metrô
+            </h1>
+          </div>
+          <div class="col-sm-8 col-sm-offset-2">
+            <div class="section-description">
+              Aplicativo para ajudar o passageiro a ter uma melhor experiência no uso do transporte público em Salvador,
+              Bahia, Brasil.
             </div>
+            <a href="https://www.appbom.com.br/#team" title="Nosso time" class="header-button-one">Nosso Time</a>
+            <a href="https://www.appbom.com.br/#contact-us" title="Entre em contato" class="header-button-two">Entre em
+              Contato</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+  <section id="about" class="front-page-section" style="">
+    <div class="section-header">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12">
+            <h3>O PROJETO</h3>
+          </div>
+          <div class="col-sm-10 col-sm-offset-1">
+            <div class="section-description">
 
+              O App B.O.M. é um aplicativo idealizado por usuários de transporte público de Salvador, que cansados de
+              enfrentar problemas como atrasos, superlotação e falta de segurança nas paradas de ônibus da cidade,
+              criaram sua própria solução para acionar e acessar os principais modais disponíveis na cidade: bicicletas
+              – ônibus – metrô (B.O.M).
 
-            <div class="col-sm-8 col-xs-4">
-              <nav class="header-navigation">
-                <ul id="menu-illdy-main" class="clearfix">
-                  <li
-                    id="menu-item-16"
-                    class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home menu-item-16"
-                  >
-                    <a
-                      aria-current="page"
-                      id="btn_projeto"
-                      class="btn_projeto"
-                      >O Projeto</a
-                    >
-                  </li>
-                
-                  <li
-                    id="menu-item-18"
-                    class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home menu-item-17"
-                  >
-                    <a
-                      id="btn_problema"
-                      class="btn_problema"
-                      aria-current="page"
-                      >O Problema</a
-                    >
-                  </li>
-                  <li
-                    id="menu-item-19"
-                    class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home menu-item-18"
-                  >
-                    <a
-                      id="btn_solucao"
-                      class="btn_solucao"
-                      aria-current="page"
-                      >A Solução</a
-                    >
-                  </li>
-                  <li
-                    id="menu-item-20"
-                    class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home menu-item-19"
-                  >
-                    <a
-                      id="btn_noticias"
-                      class="btn_noticias"
-                      aria-current="page"
-                      >Últimas Notícias</a
-                    >
-                  </li>
-                  <li
-                    id="menu-item-21"
-                    class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home menu-item-20"
-                  >
-                    <a
-                      id="btn_time"
-                      class="btn_time"
-                      aria-current="page"
-                      >Nosso Time</a
-                    >
-                  </li>
-                  <li
-                    id="menu-item-22"
-                    class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home menu-item-21"
-                  >
-                    <a
-                      id="btn_contato"
-                      class="btn_contato"
-                      aria-current="page"
-                      >Contatos</a
-                    >
-                  </li>
-                </ul>
-              </nav>
-              <button class="open-responsive-menu">
-                <i class="fa fa-bars"></i>
-              </button>
             </div>
           </div>
         </div>
       </div>
-      <nav class="responsive-menu">
-        <ul>
-          <li
-            class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home menu-item-16"
-          >
-            <a id="btn_projeto" class="btn_projeto" href="#" aria-current="page">O Projeto</a>
-          </li>
-          
-          <li
-            class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home menu-item-17"
-          >
-            <a id="btn_problema" class="btn_problema" aria-current="page"
-              >O Problema</a
-            >
-          </li>
-          <li
-            class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home menu-item-18"
-          >
-            <a href="#" class="btn_solucao" aria-current="page"
-              >A Solução</a
-            >
-          </li>
-          <li
-            class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home menu-item-19"
-          >
-            <a class="btn_noticias" aria-current="page"
-              >Últimas Notícias</a
-            >
-          </li>
-          
-          <li
-            class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home menu-item-20"
-          >
-            <a class="btn_time" aria-current="page"
-              >Nosso Time</a
-            >
-          </li>
-          <li
-            class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home menu-item-21"
-          >
-            <a
-              class="btn_contato"
-              aria-current="page"
-              >Contatos</a
-            >
-          </li>
-        </ul>
-      </nav>
-      <div class="btn_fixed">
-        <svg xmlns="http://www.w3.org/2000/svg" width="60" height="60" fill="black" class="bi bi-chevron-up" viewBox="0 0 16 16">
-          <path fill-rule="evenodd" d="M7.646 4.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1-.708.708L8 5.707l-5.646 5.647a.5.5 0 0 1-.708-.708z"/>
-        </svg>
-      </div>
-
-      <div class="bottom-header front-page">
-        <div class="container">
-          <div class="row">
-            <div class="col-sm-12">
-              <h1>
-                Bike<span class="span-dot">.</span>Ônibus<span class="span-dot"
-                  >.</span
-                >Metrô
-              </h1>
-            </div>
-            <div class="col-sm-8 col-sm-offset-2">
-              <div class="section-description">
-                Aplicativo para ajudar o passageiro a ter uma melhor experiência no uso do transporte público em Salvador, Bahia, Brasil.
-              </div>
-             <a
-                href="https://www.appbom.com.br/#team"
-                title="Nosso time"
-                class="header-button-one"
-                >Nosso Time</a
-              >
-              <a
-                href="https://www.appbom.com.br/#contact-us"
-                title="Entre em contato"
-                class="header-button-two"
-                >Entre em Contato</a
-              >
-            </div>
-          </div>
-        </div>
-      </div>
-    </header>
-    <section id="about" class="front-page-section" style="">
-      <div class="section-header">
-        <div class="container">
-          <div class="row">
-            <div class="col-sm-12">
-              <h3>O PROJETO</h3>
-            </div>
-            <div class="col-sm-10 col-sm-offset-1">
-              <div class="section-description">
-                
-                O App B.O.M. é um aplicativo idealizado por usuários de transporte público de Salvador, que cansados de enfrentar problemas como atrasos, superlotação e falta de segurança nas paradas de ônibus da cidade, criaram sua própria solução para acionar e acessar os principais modais disponíveis na cidade: bicicletas – ônibus – metrô (B.O.M).
-
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="section-content">
-        <div class="container">
-          <div class="row">
-            <div
-              id="illdy_skill-2"
-              class="col-sm-4 col-sm-offset-0 col-xs-10 col-xs-offset-1 col-lg-4 col-lg-offset-0 widget_illdy_skill"
-            >
-              <div
-                class="skill"
-                data-skill-progress-bar-width="40"
-                data-skill-color="#f18b6d"
-              >
-                <div class="skill-top clearfix">
-                  <div
-                    class="skill-progress-bar ui-progressbar ui-corner-all ui-widget ui-widget-content"
-                    role="progressbar"
-                    aria-valuemin="0"
-                    aria-valuemax="100"
-                    aria-valuenow="40"
-                  >
-                    <div
-                      class="ui-progressbar-value ui-corner-left ui-widget-header"
-                      style="width: 40%; background-color: rgb(241, 139, 109)"
-                    >
-                      <span
-                        class="ui-progressbar-value-circle"
-                        style="background-color: #f18b6d"
-                      ></span
-                      ><span
-                        class="ui-progressbar-value-top"
-                        style="background-color: #f18b6d"
-                        >40%<span
-                          class="ui-progressbar-value-triangle"
-                          style="
+    </div>
+    <div class="section-content">
+      <div class="container">
+        <div class="row">
+          <div id="illdy_skill-2"
+            class="col-sm-4 col-sm-offset-0 col-xs-10 col-xs-offset-1 col-lg-4 col-lg-offset-0 widget_illdy_skill">
+            <div class="skill" data-skill-progress-bar-width="40" data-skill-color="#f18b6d">
+              <div class="skill-top clearfix">
+                <div class="skill-progress-bar ui-progressbar ui-corner-all ui-widget ui-widget-content"
+                  role="progressbar" aria-valuemin="0" aria-valuemax="100" aria-valuenow="40">
+                  <div class="ui-progressbar-value ui-corner-left ui-widget-header"
+                    style="width: 40%; background-color: rgb(241, 139, 109)">
+                    <span class="ui-progressbar-value-circle" style="background-color: #f18b6d"></span><span
+                      class="ui-progressbar-value-top" style="background-color: #f18b6d">40%<span
+                        class="ui-progressbar-value-triangle" style="
                             border-top-color: #f18b6d;
                             border-right-color: transparent;
                             border-bottom-color: transparent;
                             border-left-color: transparent;
-                          "
-                        ></span
-                      ></span>
-                    </div>
+                          "></span></span>
                   </div>
                 </div>
-                <div class="skill-bottom" style="color: rgb(241, 139, 109)">
-                  <i class="fa fa-mobile"></i><span>MVP</span>
-                </div>
+              </div>
+              <div class="skill-bottom" style="color: rgb(241, 139, 109)">
+                <i class="fa fa-mobile"></i><span>MVP</span>
               </div>
             </div>
-            <div
-              id="illdy_skill-3"
-              class="col-sm-4 col-sm-offset-0 col-xs-10 col-xs-offset-1 col-lg-4 col-lg-offset-0 widget_illdy_skill"
-            >
-              <div
-                class="skill"
-                data-skill-progress-bar-width="30"
-                data-skill-color="#f1d204"
-              >
-                <div class="skill-top clearfix">
-                  <div
-                    class="skill-progress-bar ui-progressbar ui-corner-all ui-widget ui-widget-content"
-                    role="progressbar"
-                    aria-valuemin="0"
-                    aria-valuemax="100"
-                    aria-valuenow="30"
-                  >
-                    <div
-                      class="ui-progressbar-value ui-corner-left ui-widget-header"
-                      style="width: 30%; background-color: rgb(241, 210, 4)"
-                    >
-                      <span
-                        class="ui-progressbar-value-circle"
-                        style="background-color: #f1d204"
-                      ></span
-                      ><span
-                        class="ui-progressbar-value-top"
-                        style="background-color: #f1d204"
-                        >30%<span
-                          class="ui-progressbar-value-triangle"
-                          style="
+          </div>
+          <div id="illdy_skill-3"
+            class="col-sm-4 col-sm-offset-0 col-xs-10 col-xs-offset-1 col-lg-4 col-lg-offset-0 widget_illdy_skill">
+            <div class="skill" data-skill-progress-bar-width="30" data-skill-color="#f1d204">
+              <div class="skill-top clearfix">
+                <div class="skill-progress-bar ui-progressbar ui-corner-all ui-widget ui-widget-content"
+                  role="progressbar" aria-valuemin="0" aria-valuemax="100" aria-valuenow="30">
+                  <div class="ui-progressbar-value ui-corner-left ui-widget-header"
+                    style="width: 30%; background-color: rgb(241, 210, 4)">
+                    <span class="ui-progressbar-value-circle" style="background-color: #f1d204"></span><span
+                      class="ui-progressbar-value-top" style="background-color: #f1d204">30%<span
+                        class="ui-progressbar-value-triangle" style="
                             border-top-color: #f1d204;
                             border-right-color: transparent;
                             border-bottom-color: transparent;
                             border-left-color: transparent;
-                          "
-                        ></span
-                      ></span>
-                    </div>
+                          "></span></span>
                   </div>
                 </div>
-                <div class="skill-bottom" style="color: rgb(241, 210, 4)">
-                  <i class="fa fa-pencil"></i><span>Design</span>
-                </div>
+              </div>
+              <div class="skill-bottom" style="color: rgb(241, 210, 4)">
+                <i class="fa fa-pencil"></i><span>Design</span>
               </div>
             </div>
-            <div
-              id="illdy_skill-4"
-              class="col-sm-4 col-sm-offset-0 col-xs-10 col-xs-offset-1 col-lg-4 col-lg-offset-0 widget_illdy_skill"
-            >
-              <div
-                class="skill"
-                data-skill-progress-bar-width="10"
-                data-skill-color="#6a4d8a"
-              >
-                <div class="skill-top clearfix">
-                  <div
-                    class="skill-progress-bar ui-progressbar ui-corner-all ui-widget ui-widget-content"
-                    role="progressbar"
-                    aria-valuemin="0"
-                    aria-valuemax="100"
-                    aria-valuenow="10"
-                  >
-                    <div
-                      class="ui-progressbar-value ui-corner-left ui-widget-header"
-                      style="width: 10%; background-color: rgb(106, 77, 138)"
-                    >
-                      <span
-                        class="ui-progressbar-value-circle"
-                        style="background-color: #6a4d8a"
-                      ></span
-                      ><span
-                        class="ui-progressbar-value-top"
-                        style="background-color: #6a4d8a"
-                        >10%<span
-                          class="ui-progressbar-value-triangle"
-                          style="
+          </div>
+          <div id="illdy_skill-4"
+            class="col-sm-4 col-sm-offset-0 col-xs-10 col-xs-offset-1 col-lg-4 col-lg-offset-0 widget_illdy_skill">
+            <div class="skill" data-skill-progress-bar-width="10" data-skill-color="#6a4d8a">
+              <div class="skill-top clearfix">
+                <div class="skill-progress-bar ui-progressbar ui-corner-all ui-widget ui-widget-content"
+                  role="progressbar" aria-valuemin="0" aria-valuemax="100" aria-valuenow="10">
+                  <div class="ui-progressbar-value ui-corner-left ui-widget-header"
+                    style="width: 10%; background-color: rgb(106, 77, 138)">
+                    <span class="ui-progressbar-value-circle" style="background-color: #6a4d8a"></span><span
+                      class="ui-progressbar-value-top" style="background-color: #6a4d8a">10%<span
+                        class="ui-progressbar-value-triangle" style="
                             border-top-color: #6a4d8a;
                             border-right-color: transparent;
                             border-bottom-color: transparent;
                             border-left-color: transparent;
-                          "
-                        ></span
-                      ></span>
-                    </div>
+                          "></span></span>
                   </div>
                 </div>
-                <div class="skill-bottom" style="color: rgb(106, 77, 138)">
-                  <i class="fa fa-code"></i><span>Desenvolvimento</span>
-                </div>
+              </div>
+              <div class="skill-bottom" style="color: rgb(106, 77, 138)">
+                <i class="fa fa-code"></i><span>Desenvolvimento</span>
               </div>
             </div>
           </div>
         </div>
       </div>
-    </section>
-    <section id="projects" class="front-page-section">
-      <div class="section-header">
-        <div class="container">
-          <div class="row">
-            <div class="col-sm-12">
-              <h3>QUAL O PROBLEMA?</h3>
-            </div>
-            <div class="col-sm-10 col-sm-offset-1">
-              <div class="section-description">
-                Diariamente, <strong>milhares de cidadãos brasileiros utilizam o transporte público</strong><br> para se deslocar entre seus compromissos pessoais e profissionais. <br>
-                Muitos ônibus não param quando acionados pelos passageiros com um simples gesto de mão ... eles passam "por fora".<br><strong>O passageiro fica prejudicado ao ser deixado para trás na parada de ônibus!</strong>
-              </div>
+    </div>
+  </section>
+  <section id="projects" class="front-page-section">
+    <div class="section-header">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12">
+            <h3>QUAL O PROBLEMA?</h3>
+          </div>
+          <div class="col-sm-10 col-sm-offset-1">
+            <div class="section-description">
+              Diariamente, <strong>milhares de cidadãos brasileiros utilizam o transporte público</strong><br> para se
+              deslocar entre seus compromissos pessoais e profissionais. <br>
+              Muitos ônibus não param quando acionados pelos passageiros com um simples gesto de mão ... eles passam
+              "por fora".<br><strong>O passageiro fica prejudicado ao ser deixado para trás na parada de
+                ônibus!</strong>
             </div>
           </div>
         </div>
       </div>
-      <div class="section-content">
-        <div class="container-fluid">
-          <div class="row inline-columns">
-            <div
-              id="illdy_project-3"
-              class="col-sm-3 col-xs-6 no-padding widget_illdy_project"
-            >
-              <a
-                
-                title="APP B.O.M - mobilidade urbana e sustentabilidade"
-                class="project"
-                data-fancybox="gallery"
-                style="
+    </div>
+    <div class="section-content">
+      <div class="container-fluid">
+        <div class="row inline-columns">
+          <div id="illdy_project-3" class="col-sm-3 col-xs-6 no-padding widget_illdy_project">
+            <a title="APP B.O.M - mobilidade urbana e sustentabilidade" class="project" data-fancybox="gallery" style="
                   background-image: url('https://appbom.com.br/assets/layout/images/front-page/front-page-project-1.jpg');
                   height: 360px;
-                "
-                ></a>
-            </div>
-            <div
-              id="illdy_project-4"
-              class="col-sm-3 col-xs-6 no-padding widget_illdy_project"
-            >
-              <a
-                
-                title="APP B.O.M - mobilidade urbana e sustentabilidade"
-                class="project"
-                data-fancybox="gallery"
-                style="
+                "></a>
+          </div>
+          <div id="illdy_project-4" class="col-sm-3 col-xs-6 no-padding widget_illdy_project">
+            <a title="APP B.O.M - mobilidade urbana e sustentabilidade" class="project" data-fancybox="gallery" style="
                   background-image: url('https://appbom.com.br/assets/layout/images/front-page/front-page-project-2.jpg');
                   height: 360px;
-                "
-                ></a>
-            </div>
-            <div
-              id="illdy_project-5"
-              class="col-sm-3 col-xs-6 no-padding widget_illdy_project"
-            >
-              <a
-                
-                title="APP B.O.M - mobilidade urbana e sustentabilidade"
-                class="project"
-                data-fancybox="gallery"
-                style="
+                "></a>
+          </div>
+          <div id="illdy_project-5" class="col-sm-3 col-xs-6 no-padding widget_illdy_project">
+            <a title="APP B.O.M - mobilidade urbana e sustentabilidade" class="project" data-fancybox="gallery" style="
                   background-image: url('https://appbom.com.br/assets/layout/images/front-page/front-page-project-3.jpg');
                   height: 360px;
-                "
-                ></a>
-            </div>
-           
+                "></a>
           </div>
+
         </div>
       </div>
-    </section>
-    <section id="services" class="front-page-section">
-      <div class="section-header">
-        <div class="container">
-          <div class="row">
-            <div class="col-sm-12">
-              <h3>A SOLUÇÃO</h3>
-            </div>
-            <div class="col-sm-10 col-sm-offset-1">
-              <div class="section-description">
-                Nosso time desenvolveu uma solução inovadora que permite aos cidadãos solicitar, através do smartphone, a parada do ônibus no exato momento em que chegam ao ponto. Isso ajuda a mitigar diversos riscos e problemas sociais, tais como: 
-              </div>
-            </div>
+    </div>
+  </section>
+  <section id="services" class="front-page-section">
+    <div class="section-header">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12">
+            <h3>A SOLUÇÃO</h3>
           </div>
-        </div>
-      </div>
-      <div class="section-content">
-        <div class="container">
-          <div class="row inline-columns">
-            <div id="illdy_service-2" class="col-sm-4 widget_illdy_service">
-              <div class="service" data-service-color="#f18b6d">
-                <div class="service-icon" style="color: rgb(241, 139, 109)">
-                  <svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 512 512"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M160 96a96 96 0 1 1 192 0A96 96 0 1 1 160 96zm80 152V512l-48.4-24.2c-20.9-10.4-43.5-17-66.8-19.3l-96-9.6C12.5 457.2 0 443.5 0 427V224c0-17.7 14.3-32 32-32H62.3c63.6 0 125.6 19.6 177.7 56zm32 264V248c52.1-36.4 114.1-56 177.7-56H480c17.7 0 32 14.3 32 32V427c0 16.4-12.5 30.2-28.8 31.8l-96 9.6c-23.2 2.3-45.9 8.9-66.8 19.3L272 512z"/></svg> <svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 576 512"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M208 64a48 48 0 1 1 96 0 48 48 0 1 1 -96 0zM9.8 214.8c5.1-12.2 19.1-18 31.4-12.9L60.7 210l22.9-38.1C99.9 144.6 129.3 128 161 128c51.4 0 97 32.9 113.3 81.7l34.6 103.7 79.3 33.1 34.2-45.6c6.4-8.5 16.6-13.3 27.2-12.8s20.3 6.4 25.8 15.5l96 160c5.9 9.9 6.1 22.2 .4 32.2s-16.3 16.2-27.8 16.2H288c-11.1 0-21.4-5.7-27.2-15.2s-6.4-21.2-1.4-31.1l16-32c5.4-10.8 16.5-17.7 28.6-17.7h32l22.5-30L22.8 246.2c-12.2-5.1-18-19.1-12.9-31.4zm82.8 91.8l112 48c11.8 5 19.4 16.6 19.4 29.4v96c0 17.7-14.3 32-32 32s-32-14.3-32-32V405.1l-60.6-26-37 111c-5.6 16.8-23.7 25.8-40.5 20.2S-3.9 486.6 1.6 469.9l48-144 11-33 32 13.7z"/></svg> <svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 448 512"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M224 256A128 128 0 1 1 224 0a128 128 0 1 1 0 256zM209.1 359.2l-18.6-31c-6.4-10.7 1.3-24.2 13.7-24.2H224h19.7c12.4 0 20.1 13.6 13.7 24.2l-18.6 31 33.4 123.9 36-146.9c2-8.1 9.8-13.4 17.9-11.3c70.1 17.6 121.9 81 121.9 156.4c0 17-13.8 30.7-30.7 30.7H285.5c-2.1 0-4-.4-5.8-1.1l.3 1.1H168l.3-1.1c-1.8 .7-3.8 1.1-5.8 1.1H30.7C13.8 512 0 498.2 0 481.3c0-75.5 51.9-138.9 121.9-156.4c8.1-2 15.9 3.3 17.9 11.3l36 146.9 33.4-123.9z"/></svg>
-                </div>
-                <div class="service-title" style="color: rgb(241, 139, 109)">
-                  <h5>EQUIDADE</h5>
-                </div>
-                <div class="service-entry">
-                  O risco de trabalhadores perderem seus empregos ou de estudantes perderem exames importantes como o ENEM, porque o ônibus passou por trás!  
-                </div>
-              </div>
-            </div>
-            <div id="illdy_service-3" class="col-sm-4 widget_illdy_service">
-              <div class="service" data-service-color="#f1d204">
-                <div class="service-icon" style="color: rgb(241, 210, 4)">
-                  <svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 448 512"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M423.9 255.8L411 413.1c-3.3 40.7-63.9 35.1-60.6-4.9l10-122.5-41.1 2.3c10.1 20.7 15.8 43.9 15.8 68.5 0 41.2-16.1 78.7-42.3 106.5l-39.3-39.3c57.9-63.7 13.1-167.2-74-167.2-25.9 0-49.5 9.9-67.2 26L73 243.2c22-20.7 50.1-35.1 81.4-40.2l75.3-85.7-42.6-24.8-51.6 46c-30 26.8-70.6-18.5-40.5-45.4l68-60.7c9.8-8.8 24.1-10.2 35.5-3.6 0 0 139.3 80.9 139.5 81.1 16.2 10.1 20.7 36 6.1 52.6L285.7 229l106.1-5.9c18.5-1.1 33.6 14.4 32.1 32.7zm-64.9-154c28.1 0 50.9-22.8 50.9-50.9C409.9 22.8 387.1 0 359 0c-28.1 0-50.9 22.8-50.9 50.9 0 28.1 22.8 50.9 50.9 50.9zM179.6 456.5c-80.6 0-127.4-90.6-82.7-156.1l-39.7-39.7C36.4 287 24 320.3 24 356.4c0 130.7 150.7 201.4 251.4 122.5l-39.7-39.7c-16 10.9-35.3 17.3-56.1 17.3z"/></svg> <svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 512 512"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M176 96a48 48 0 1 0 0-96 48 48 0 1 0 0 96zm-8.4 32c-36.4 0-69.6 20.5-85.9 53.1L35.4 273.7c-7.9 15.8-1.5 35 14.3 42.9s35 1.5 42.9-14.3L128 231.6v43.2c0 17 6.7 33.3 18.7 45.3L224 397.3V480c0 17.7 14.3 32 32 32s32-14.3 32-32V390.6c0-12.7-5.1-24.9-14.1-33.9L224 306.7V213.3l70.4 93.9c10.6 14.1 30.7 17 44.8 6.4s17-30.7 6.4-44.8L268.8 166.4C250.7 142.2 222.2 128 192 128H167.6zM128.3 346.8L97 472.2c-4.3 17.1 6.1 34.5 23.3 38.8s34.5-6.1 38.8-23.3l22-88.2-52.8-52.8zM450.8 505.1c5 7.3 15 9.1 22.3 4s9.1-15 4-22.3L358.9 316.1c-2.8 3.8-6.1 7.3-10.1 10.3c-5 3.8-10.5 6.4-16.2 7.9L450.8 505.1z"/></svg> <svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 448 512"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M272 48a48 48 0 1 0 -96 0 48 48 0 1 0 96 0zm-8 187.3l47.4 57.1c11.3 13.6 31.5 15.5 45.1 4.2s15.5-31.5 4.2-45.1l-73.7-88.9c-18.2-22-45.3-34.7-73.9-34.7H177.1c-33.7 0-64.9 17.7-82.3 46.6l-58.3 97c-9.1 15.1-4.2 34.8 10.9 43.9s34.8 4.2 43.9-10.9L120 256.9V480c0 17.7 14.3 32 32 32s32-14.3 32-32V352h16V480c0 17.7 14.3 32 32 32s32-14.3 32-32V235.3zM352 376c0-4.4 3.6-8 8-8s8 3.6 8 8V488c0 13.3 10.7 24 24 24s24-10.7 24-24V376c0-30.9-25.1-56-56-56s-56 25.1-56 56v8c0 13.3 10.7 24 24 24s24-10.7 24-24v-8z"/></svg>
-                </div>
-                <div class="service-title" style="color: rgb(241, 210, 4)">
-                  <h5>ACESSIBILIDADE</h5>
-                </div>
-                <div class="service-entry">
-                  Pessoas com deficiência e idosos perderem consultas médicas essenciais, porque o ônibus não parou no ponto quando solicitado com as mãos!
-                </div>
-              </div>
-            </div>
-            <div id="illdy_service-4" class="col-sm-4 widget_illdy_service" style="margin-top: 5%;">
-              <div class="service" data-service-color="#6a4d8a">
-                <div class="service-icon" style="color: rgb(106, 77, 138)">
-                  <svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 576 512"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M288 0C422.4 0 512 35.2 512 80V96l0 32c17.7 0 32 14.3 32 32v64c0 17.7-14.3 32-32 32l0 160c0 17.7-14.3 32-32 32v32c0 17.7-14.3 32-32 32H416c-17.7 0-32-14.3-32-32V448H192v32c0 17.7-14.3 32-32 32H128c-17.7 0-32-14.3-32-32l0-32c-17.7 0-32-14.3-32-32l0-160c-17.7 0-32-14.3-32-32V160c0-17.7 14.3-32 32-32h0V96h0V80C64 35.2 153.6 0 288 0zM128 160v96c0 17.7 14.3 32 32 32H272V128H160c-17.7 0-32 14.3-32 32zM304 288H416c17.7 0 32-14.3 32-32V160c0-17.7-14.3-32-32-32H304V288zM144 400a32 32 0 1 0 0-64 32 32 0 1 0 0 64zm288 0a32 32 0 1 0 0-64 32 32 0 1 0 0 64zM384 80c0-8.8-7.2-16-16-16H208c-8.8 0-16 7.2-16 16s7.2 16 16 16H368c8.8 0 16-7.2 16-16z"/></svg> <svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 640 512"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M312 32c-13.3 0-24 10.7-24 24s10.7 24 24 24h25.7l34.6 64H222.9l-27.4-38C191 99.7 183.7 96 176 96H120c-13.3 0-24 10.7-24 24s10.7 24 24 24h43.7l22.1 30.7-26.6 53.1c-10-2.5-20.5-3.8-31.2-3.8C57.3 224 0 281.3 0 352s57.3 128 128 128c65.3 0 119.1-48.9 127-112h49c8.5 0 16.3-4.5 20.7-11.8l84.8-143.5 21.7 40.1C402.4 276.3 384 312 384 352c0 70.7 57.3 128 128 128s128-57.3 128-128s-57.3-128-128-128c-13.5 0-26.5 2.1-38.7 6L375.4 48.8C369.8 38.4 359 32 347.2 32H312zM458.6 303.7l32.3 59.7c6.3 11.7 20.9 16 32.5 9.7s16-20.9 9.7-32.5l-32.3-59.7c3.6-.6 7.4-.9 11.2-.9c39.8 0 72 32.2 72 72s-32.2 72-72 72s-72-32.2-72-72c0-18.6 7-35.5 18.6-48.3zM133.2 368h65c-7.3 32.1-36 56-70.2 56c-39.8 0-72-32.2-72-72s32.2-72 72-72c1.7 0 3.4 .1 5.1 .2l-24.2 48.5c-9 18.1 4.1 39.4 24.3 39.4zm33.7-48l50.7-101.3 72.9 101.2-.1 .1H166.8zm90.6-128H365.9L317 274.8 257.4 192z"/></svg> <svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 448 512"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M96 0C43 0 0 43 0 96V352c0 48 35.2 87.7 81.1 94.9l-46 46C28.1 499.9 33.1 512 43 512H82.7c8.5 0 16.6-3.4 22.6-9.4L160 448H288l54.6 54.6c6 6 14.1 9.4 22.6 9.4H405c10 0 15-12.1 7.9-19.1l-46-46c46-7.1 81.1-46.9 81.1-94.9V96c0-53-43-96-96-96H96zM64 128c0-17.7 14.3-32 32-32h80c17.7 0 32 14.3 32 32v96c0 17.7-14.3 32-32 32H96c-17.7 0-32-14.3-32-32V128zM272 96h80c17.7 0 32 14.3 32 32v96c0 17.7-14.3 32-32 32H272c-17.7 0-32-14.3-32-32V128c0-17.7 14.3-32 32-32zM64 352a32 32 0 1 1 64 0 32 32 0 1 1 -64 0zm288-32a32 32 0 1 1 0 64 32 32 0 1 1 0-64z"/></svg>
-                </div>
-                <div class="service-title" style="color: rgb(106, 77, 138)">
-                  <h5>PREVISIBILIDADE</h5>
-                </div>
-                <div class="service-entry">
-                  O passageiro poderá verificar antecipadamente o horário em que o próximo Metrô irá chegar na baldeação ou a disponibilidade de bicicletas para locação próximo ao local de desembarcar.
-                </div>
-              </div>
+          <div class="col-sm-10 col-sm-offset-1">
+            <div class="section-description">
+              Nosso time desenvolveu uma solução inovadora que permite aos cidadãos solicitar, através do smartphone, a
+              parada do ônibus no exato momento em que chegam ao ponto. Isso ajuda a mitigar diversos riscos e problemas
+              sociais, tais como:
             </div>
           </div>
         </div>
       </div>
-    </section>
-    <section id="latest-news" class="front-page-section">
-      <div class="section-header">
-        <div class="container">
-          <div class="row">
-            <div class="col-sm-12">
-              <h3>Últimas Notícias</h3>
+    </div>
+    <div class="section-content">
+      <div class="container">
+        <div class="row inline-columns">
+          <div id="illdy_service-2" class="col-sm-4 widget_illdy_service">
+            <div class="service" data-service-color="#f18b6d">
+              <div class="service-icon" style="color: rgb(241, 139, 109)">
+                <svg xmlns="http://www.w3.org/2000/svg" height="1em"
+                  viewBox="0 0 512 512"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
+                  <path
+                    d="M160 96a96 96 0 1 1 192 0A96 96 0 1 1 160 96zm80 152V512l-48.4-24.2c-20.9-10.4-43.5-17-66.8-19.3l-96-9.6C12.5 457.2 0 443.5 0 427V224c0-17.7 14.3-32 32-32H62.3c63.6 0 125.6 19.6 177.7 56zm32 264V248c52.1-36.4 114.1-56 177.7-56H480c17.7 0 32 14.3 32 32V427c0 16.4-12.5 30.2-28.8 31.8l-96 9.6c-23.2 2.3-45.9 8.9-66.8 19.3L272 512z" />
+                </svg> <svg xmlns="http://www.w3.org/2000/svg" height="1em"
+                  viewBox="0 0 576 512"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
+                  <path
+                    d="M208 64a48 48 0 1 1 96 0 48 48 0 1 1 -96 0zM9.8 214.8c5.1-12.2 19.1-18 31.4-12.9L60.7 210l22.9-38.1C99.9 144.6 129.3 128 161 128c51.4 0 97 32.9 113.3 81.7l34.6 103.7 79.3 33.1 34.2-45.6c6.4-8.5 16.6-13.3 27.2-12.8s20.3 6.4 25.8 15.5l96 160c5.9 9.9 6.1 22.2 .4 32.2s-16.3 16.2-27.8 16.2H288c-11.1 0-21.4-5.7-27.2-15.2s-6.4-21.2-1.4-31.1l16-32c5.4-10.8 16.5-17.7 28.6-17.7h32l22.5-30L22.8 246.2c-12.2-5.1-18-19.1-12.9-31.4zm82.8 91.8l112 48c11.8 5 19.4 16.6 19.4 29.4v96c0 17.7-14.3 32-32 32s-32-14.3-32-32V405.1l-60.6-26-37 111c-5.6 16.8-23.7 25.8-40.5 20.2S-3.9 486.6 1.6 469.9l48-144 11-33 32 13.7z" />
+                </svg> <svg xmlns="http://www.w3.org/2000/svg" height="1em"
+                  viewBox="0 0 448 512"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
+                  <path
+                    d="M224 256A128 128 0 1 1 224 0a128 128 0 1 1 0 256zM209.1 359.2l-18.6-31c-6.4-10.7 1.3-24.2 13.7-24.2H224h19.7c12.4 0 20.1 13.6 13.7 24.2l-18.6 31 33.4 123.9 36-146.9c2-8.1 9.8-13.4 17.9-11.3c70.1 17.6 121.9 81 121.9 156.4c0 17-13.8 30.7-30.7 30.7H285.5c-2.1 0-4-.4-5.8-1.1l.3 1.1H168l.3-1.1c-1.8 .7-3.8 1.1-5.8 1.1H30.7C13.8 512 0 498.2 0 481.3c0-75.5 51.9-138.9 121.9-156.4c8.1-2 15.9 3.3 17.9 11.3l36 146.9 33.4-123.9z" />
+                </svg>
+              </div>
+              <div class="service-title" style="color: rgb(241, 139, 109)">
+                <h5>EQUIDADE</h5>
+              </div>
+              <div class="service-entry">
+                O risco de trabalhadores perderem seus empregos ou de estudantes perderem exames importantes como o
+                ENEM, porque o ônibus passou por trás!
+              </div>
             </div>
-            <div class="col-sm-10 col-sm-offset-1">
-              <div class="section-description">
-                A qualidade do transporte vem afetando a população todos os dias
+          </div>
+          <div id="illdy_service-3" class="col-sm-4 widget_illdy_service">
+            <div class="service" data-service-color="#f1d204">
+              <div class="service-icon" style="color: rgb(241, 210, 4)">
+                <svg xmlns="http://www.w3.org/2000/svg" height="1em"
+                  viewBox="0 0 448 512"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
+                  <path
+                    d="M423.9 255.8L411 413.1c-3.3 40.7-63.9 35.1-60.6-4.9l10-122.5-41.1 2.3c10.1 20.7 15.8 43.9 15.8 68.5 0 41.2-16.1 78.7-42.3 106.5l-39.3-39.3c57.9-63.7 13.1-167.2-74-167.2-25.9 0-49.5 9.9-67.2 26L73 243.2c22-20.7 50.1-35.1 81.4-40.2l75.3-85.7-42.6-24.8-51.6 46c-30 26.8-70.6-18.5-40.5-45.4l68-60.7c9.8-8.8 24.1-10.2 35.5-3.6 0 0 139.3 80.9 139.5 81.1 16.2 10.1 20.7 36 6.1 52.6L285.7 229l106.1-5.9c18.5-1.1 33.6 14.4 32.1 32.7zm-64.9-154c28.1 0 50.9-22.8 50.9-50.9C409.9 22.8 387.1 0 359 0c-28.1 0-50.9 22.8-50.9 50.9 0 28.1 22.8 50.9 50.9 50.9zM179.6 456.5c-80.6 0-127.4-90.6-82.7-156.1l-39.7-39.7C36.4 287 24 320.3 24 356.4c0 130.7 150.7 201.4 251.4 122.5l-39.7-39.7c-16 10.9-35.3 17.3-56.1 17.3z" />
+                </svg> <svg xmlns="http://www.w3.org/2000/svg" height="1em"
+                  viewBox="0 0 512 512"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
+                  <path
+                    d="M176 96a48 48 0 1 0 0-96 48 48 0 1 0 0 96zm-8.4 32c-36.4 0-69.6 20.5-85.9 53.1L35.4 273.7c-7.9 15.8-1.5 35 14.3 42.9s35 1.5 42.9-14.3L128 231.6v43.2c0 17 6.7 33.3 18.7 45.3L224 397.3V480c0 17.7 14.3 32 32 32s32-14.3 32-32V390.6c0-12.7-5.1-24.9-14.1-33.9L224 306.7V213.3l70.4 93.9c10.6 14.1 30.7 17 44.8 6.4s17-30.7 6.4-44.8L268.8 166.4C250.7 142.2 222.2 128 192 128H167.6zM128.3 346.8L97 472.2c-4.3 17.1 6.1 34.5 23.3 38.8s34.5-6.1 38.8-23.3l22-88.2-52.8-52.8zM450.8 505.1c5 7.3 15 9.1 22.3 4s9.1-15 4-22.3L358.9 316.1c-2.8 3.8-6.1 7.3-10.1 10.3c-5 3.8-10.5 6.4-16.2 7.9L450.8 505.1z" />
+                </svg> <svg xmlns="http://www.w3.org/2000/svg" height="1em"
+                  viewBox="0 0 448 512"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
+                  <path
+                    d="M272 48a48 48 0 1 0 -96 0 48 48 0 1 0 96 0zm-8 187.3l47.4 57.1c11.3 13.6 31.5 15.5 45.1 4.2s15.5-31.5 4.2-45.1l-73.7-88.9c-18.2-22-45.3-34.7-73.9-34.7H177.1c-33.7 0-64.9 17.7-82.3 46.6l-58.3 97c-9.1 15.1-4.2 34.8 10.9 43.9s34.8 4.2 43.9-10.9L120 256.9V480c0 17.7 14.3 32 32 32s32-14.3 32-32V352h16V480c0 17.7 14.3 32 32 32s32-14.3 32-32V235.3zM352 376c0-4.4 3.6-8 8-8s8 3.6 8 8V488c0 13.3 10.7 24 24 24s24-10.7 24-24V376c0-30.9-25.1-56-56-56s-56 25.1-56 56v8c0 13.3 10.7 24 24 24s24-10.7 24-24v-8z" />
+                </svg>
+              </div>
+              <div class="service-title" style="color: rgb(241, 210, 4)">
+                <h5>ACESSIBILIDADE</h5>
+              </div>
+              <div class="service-entry">
+                Pessoas com deficiência e idosos perderem consultas médicas essenciais, porque o ônibus não parou no
+                ponto quando solicitado com as mãos!
+              </div>
+            </div>
+          </div>
+          <div id="illdy_service-4" class="col-sm-4 widget_illdy_service" style="margin-top: 5%;">
+            <div class="service" data-service-color="#6a4d8a">
+              <div class="service-icon" style="color: rgb(106, 77, 138)">
+                <svg xmlns="http://www.w3.org/2000/svg" height="1em"
+                  viewBox="0 0 576 512"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
+                  <path
+                    d="M288 0C422.4 0 512 35.2 512 80V96l0 32c17.7 0 32 14.3 32 32v64c0 17.7-14.3 32-32 32l0 160c0 17.7-14.3 32-32 32v32c0 17.7-14.3 32-32 32H416c-17.7 0-32-14.3-32-32V448H192v32c0 17.7-14.3 32-32 32H128c-17.7 0-32-14.3-32-32l0-32c-17.7 0-32-14.3-32-32l0-160c-17.7 0-32-14.3-32-32V160c0-17.7 14.3-32 32-32h0V96h0V80C64 35.2 153.6 0 288 0zM128 160v96c0 17.7 14.3 32 32 32H272V128H160c-17.7 0-32 14.3-32 32zM304 288H416c17.7 0 32-14.3 32-32V160c0-17.7-14.3-32-32-32H304V288zM144 400a32 32 0 1 0 0-64 32 32 0 1 0 0 64zm288 0a32 32 0 1 0 0-64 32 32 0 1 0 0 64zM384 80c0-8.8-7.2-16-16-16H208c-8.8 0-16 7.2-16 16s7.2 16 16 16H368c8.8 0 16-7.2 16-16z" />
+                </svg> <svg xmlns="http://www.w3.org/2000/svg" height="1em"
+                  viewBox="0 0 640 512"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
+                  <path
+                    d="M312 32c-13.3 0-24 10.7-24 24s10.7 24 24 24h25.7l34.6 64H222.9l-27.4-38C191 99.7 183.7 96 176 96H120c-13.3 0-24 10.7-24 24s10.7 24 24 24h43.7l22.1 30.7-26.6 53.1c-10-2.5-20.5-3.8-31.2-3.8C57.3 224 0 281.3 0 352s57.3 128 128 128c65.3 0 119.1-48.9 127-112h49c8.5 0 16.3-4.5 20.7-11.8l84.8-143.5 21.7 40.1C402.4 276.3 384 312 384 352c0 70.7 57.3 128 128 128s128-57.3 128-128s-57.3-128-128-128c-13.5 0-26.5 2.1-38.7 6L375.4 48.8C369.8 38.4 359 32 347.2 32H312zM458.6 303.7l32.3 59.7c6.3 11.7 20.9 16 32.5 9.7s16-20.9 9.7-32.5l-32.3-59.7c3.6-.6 7.4-.9 11.2-.9c39.8 0 72 32.2 72 72s-32.2 72-72 72s-72-32.2-72-72c0-18.6 7-35.5 18.6-48.3zM133.2 368h65c-7.3 32.1-36 56-70.2 56c-39.8 0-72-32.2-72-72s32.2-72 72-72c1.7 0 3.4 .1 5.1 .2l-24.2 48.5c-9 18.1 4.1 39.4 24.3 39.4zm33.7-48l50.7-101.3 72.9 101.2-.1 .1H166.8zm90.6-128H365.9L317 274.8 257.4 192z" />
+                </svg> <svg xmlns="http://www.w3.org/2000/svg" height="1em"
+                  viewBox="0 0 448 512"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
+                  <path
+                    d="M96 0C43 0 0 43 0 96V352c0 48 35.2 87.7 81.1 94.9l-46 46C28.1 499.9 33.1 512 43 512H82.7c8.5 0 16.6-3.4 22.6-9.4L160 448H288l54.6 54.6c6 6 14.1 9.4 22.6 9.4H405c10 0 15-12.1 7.9-19.1l-46-46c46-7.1 81.1-46.9 81.1-94.9V96c0-53-43-96-96-96H96zM64 128c0-17.7 14.3-32 32-32h80c17.7 0 32 14.3 32 32v96c0 17.7-14.3 32-32 32H96c-17.7 0-32-14.3-32-32V128zM272 96h80c17.7 0 32 14.3 32 32v96c0 17.7-14.3 32-32 32H272c-17.7 0-32-14.3-32-32V128c0-17.7 14.3-32 32-32zM64 352a32 32 0 1 1 64 0 32 32 0 1 1 -64 0zm288-32a32 32 0 1 1 0 64 32 32 0 1 1 0-64z" />
+                </svg>
+              </div>
+              <div class="service-title" style="color: rgb(106, 77, 138)">
+                <h5>PREVISIBILIDADE</h5>
+              </div>
+              <div class="service-entry">
+                O passageiro poderá verificar antecipadamente o horário em que o próximo Metrô irá chegar na baldeação
+                ou a disponibilidade de bicicletas para locação próximo ao local de desembarcar.
               </div>
             </div>
           </div>
         </div>
       </div>
-      <div class="section-content">
-        <div class="container">
-          <div class="row blog-carousel">
-            <div class="illdy-blog-post col-md-4 col-sm-6 col-xs-12">
-              <div class="post">
-                <div
-                  class="post-image"
-                  style="
+    </div>
+  </section>
+  <section id="latest-news" class="front-page-section">
+    <div class="section-header">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12">
+            <h3>Últimas Notícias</h3>
+          </div>
+          <div class="col-sm-10 col-sm-offset-1">
+            <div class="section-description">
+              A qualidade do transporte vem afetando a população todos os dias
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="section-content">
+      <div class="container">
+        <div class="row blog-carousel">
+          <div class="illdy-blog-post col-md-4 col-sm-6 col-xs-12">
+            <div class="post">
+              <div class="post-image" style="
                     background-image: url('https://appbom.com.br/assets/layout/images/front-page/front-page-latest-news-1.jpg');
-                  "
-                ></div>
-                <h5>
-                  <a
-                    href="https://appbom.com.br/assets/layout/images/front-page/"
-                    title="Noticia - Passageiros reclamam de motoristas que não param em pontos de ônibus..."
-                    class="post-title"
-                    >Passageiros reclamam de motoristas que não param em pontos de ônibus na Av. Jorge Amado no bairro do Imbuí</a
-                  >
-                </h5>
-                <div class="post-entry">
-                  Moradores estão reclamando que os ônibus não estão parando no ponto de ônibus localizado na Avenida Jorge Amado, em frente às quadras, no sentido da Avenida Paralela.
-                </div>
-                <a
-                  href="https://www.instagram.com/p/CxDkdllIwtw/?igshid=MTc4MmM1YmI2Ng%3D%3D"
-                  title="Por Imbuí Notícias"
-                  class="post-button"
-                  ><i class="fa fa-chevron-circle-right"></i>Por Imbuí Notícias
-                </a>
+                  "></div>
+              <h5>
+                <a href="https://www.instagram.com/p/CxDkdllIwtw/?igshid=MTc4MmM1YmI2Ng%3D%3D"
+                  title="Noticia - Passageiros reclamam de motoristas que não param em pontos de ônibus..."
+                  target="_blank" class="post-title">Passageiros reclamam de motoristas que não param em pontos de
+                  ônibus na Av. Jorge Amado no bairro do Imbuí</a>
+              </h5>
+              <div class="post-entry">
+                Moradores estão reclamando que os ônibus não estão parando no ponto de ônibus localizado na Avenida
+                Jorge Amado, em frente às quadras, no sentido da Avenida Paralela.
               </div>
+              <a href="https://www.instagram.com/p/CxDkdllIwtw/?igshid=MTc4MmM1YmI2Ng%3D%3D" title="Por Imbuí Notícias"
+                class="post-button" target="_blank"><i class="fa fa-chevron-circle-right"></i>Por Imbuí Notícias
+              </a>
             </div>
-            <div class="illdy-blog-post col-md-4 col-sm-6 col-xs-12">
-              <div class="post">
-                <div
-                  class="post-image"
-                  style="
+          </div>
+          <div class="illdy-blog-post col-md-4 col-sm-6 col-xs-12">
+            <div class="post">
+              <div class="post-image" style="
                     background-image: url('https://appbom.com.br/assets/layout/images/front-page/front-page-latest-news-2.jpg');
-                  "
-                ></div>
-                <h5>
-                  <a
-                    href="https://www.instagram.com/p/CzJRU_VsbKa/?igshid=MTc4MmM1YmI2Ng%3D%3D"
-                    title="Notícia - Em meio a críticas, Prefeitura de Salvador fará pesquisa com usuários sobre a qualidade do transporte..."
-                    class="post-title"
-                    >Em meio a críticas, Prefeitura de Salvador fará pesquisa com usuários sobre a qualidade do transporte público</a
-                  >
-                </h5>
-                <div class="post-entry">
-                  A Secretaria de Mobilidade (Semob) anunciou que vai iniciará a pesquisa QualiÔnibus para entender como a população soteropolitana avalia o serviço de transporte coletivo por ônibus na capital baiana.
-                </div>
-                <a
-                  href="https://www.instagram.com/p/CzJRU_VsbKa/?igshid=MTc4MmM1YmI2Ng%3D%3D"
-                  title="Por Grupo Metrópole"
-                  class="post-button"
-                  ><i class="fa fa-chevron-circle-right"></i>Por Grupo Metrópole
-                </a>
+                  "></div>
+              <h5>
+                <a href="https://www.instagram.com/p/CzJRU_VsbKa/?igshid=MTc4MmM1YmI2Ng%3D%3D"
+                  title="Notícia - Em meio a críticas, Prefeitura de Salvador fará pesquisa com usuários sobre a qualidade do transporte..."
+                  target="_blank" class="post-title">Em meio a críticas, Prefeitura de Salvador fará pesquisa com
+                  usuários sobre a qualidade do transporte público</a>
+              </h5>
+              <div class="post-entry">
+                A Secretaria de Mobilidade (Semob) anunciou que vai iniciará a pesquisa QualiÔnibus para entender como a
+                população soteropolitana avalia o serviço de transporte coletivo por ônibus na capital baiana.
               </div>
+              <a href="https://www.instagram.com/p/CzJRU_VsbKa/?igshid=MTc4MmM1YmI2Ng%3D%3D" title="Por Grupo Metrópole"
+                target="_blank" class="post-button"><i class="fa fa-chevron-circle-right"></i>Por Grupo Metrópole
+              </a>
             </div>
-            <div class="illdy-blog-post col-md-4 col-sm-6 col-xs-12">
-              <div class="post">
-                <div
-                  class="post-image"
-                  style="
+          </div>
+          <div class="illdy-blog-post col-md-4 col-sm-6 col-xs-12">
+            <div class="post">
+              <div class="post-image" style="
                     background-image: url('https://appbom.com.br/assets/layout/images/front-page/front-page-latest-news-3.jpg');
-                  "
-                ></div>
-                <h5>
-                  <a
-                    href="https://www.instagram.com/p/CzerUnYtuQP/"
-                    title="Notícia - Bruno Reis anuncia reajuste de R$ 0,30 na passagem de ônibus e valor atinge R$ 5,20"
-                    class="post-title"
-                    >Bruno Reis anuncia reajuste de R$ 0,30 na passagem de ônibus e valor atinge R$ 5,20</a
-                  >
-                </h5>
-                <div class="post-entry">
-                  O prefeito Bruno Reis (União) anunciou, nesta sexta-feira (10), o novo valor do ticket do transporte público. A passagem alcança o valor de R$5,20, em um aumento de 6%, que representa a alta inflacionária.
-                </div>
-                <a
-                  href="https://www.instagram.com/p/CzerUnYtuQP/"
-                  title="Por Grupo Metrópole"
-                  class="post-button"
-                  ><i class="fa fa-chevron-circle-right"></i>Por Grupo Metrópole
-                </a>
+                  "></div>
+              <h5>
+                <a href="https://www.instagram.com/p/CzerUnYtuQP/"
+                  title="Notícia - Bruno Reis anuncia reajuste de R$ 0,30 na passagem de ônibus e valor atinge R$ 5,20"
+                  target="_blank" class="post-title">Bruno Reis anuncia reajuste de R$ 0,30 na passagem de ônibus e
+                  valor atinge R$ 5,20</a>
+              </h5>
+              <div class="post-entry">
+                O prefeito Bruno Reis (União) anunciou, nesta sexta-feira (10), o novo valor do ticket do transporte
+                público. A passagem alcança o valor de R$5,20, em um aumento de 6%, que representa a alta inflacionária.
               </div>
+              <a href="https://www.instagram.com/p/CzerUnYtuQP/" target="_blank" title="Por Grupo Metrópole"
+                class="post-button"><i class="fa fa-chevron-circle-right"></i>Por Grupo Metrópole
+              </a>
             </div>
           </div>
         </div>
       </div>
-    </section>
-   
-    <section id="team" class="front-page-section">
-      <div class="section-header">
-        <div class="container">
+    </div>
+  </section>
+
+  <section id="team" class="front-page-section">
+    <div class="section-header">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12">
+            <h3>NOSSO TIME</h3>
+          </div>
+          <div class="col-sm-10 col-sm-offset-1">
+            <div class="section-description">
+              Conheça as pessoas que estão 100% engajadas em melhorar a qualidade dos serviços de transporte público no
+              nosso país, tornando o seu acesso mais fácil, inclusivo e democrático.
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="section-content">
+      <div class="container">
+        <div class="row container_person">
+
           <div class="row">
-            <div class="col-sm-12">
-              <h3>NOSSO TIME</h3>
+            <div id="illdy_person-7" class="col-sm-6 col-sm-offset-0 col-xs-10 col-xs-offset-1 widget_illdy_person">
+              <div class="person clearfix" data-person-color="#4c4c4c">
+                <div class="person-image">
+                  <img src="https://appbom.com.br/assets/layout/images/front-page/andrea_soares.png" alt="Andrea Soares"
+                    title="Andrea Soares" />
+                </div>
+                <div class="person-content">
+                  <h6>Andrea Soares</h6>
+                  <p class="person-position" style="color: rgb(80, 80, 80)">
+                    UX Designer
+                  </p>
+                  <p>Foco na experiência da pessoa usuária para um APP acessível e fácil de usar.</p>
+                  <ul class="person-content-social clearfix">
+                    <li>
+                      <a target="_blank" href="https://www.linkedin.com/in/andreamps/" title="LinkedIn" style="
+                                border-color: rgb(40, 40, 40);
+                                color: rgb(40, 40, 40);
+                              "><i class="fa fa-linkedin" target="_blank" rel="nofollow"></i></a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
             </div>
-            <div class="col-sm-10 col-sm-offset-1">
-              <div class="section-description">
-                Conheça as pessoas que estão 100% engajadas em melhorar a qualidade dos serviços de transporte público no nosso país, tornando o seu acesso mais fácil, inclusivo e democrático.
+            <div id="illdy_person-7" class="col-sm-6 col-sm-offset-0 col-xs-10 col-xs-offset-1 widget_illdy_person">
+              <div class="person clearfix" data-person-color="#4c4c4c">
+                <div class="person-image">
+                  <img src="./assets/layout/images/front-page/danilo_silva.png" alt="Danilo Silva"
+                    title="Danilo Silva" />
+                </div>
+                <div class="person-content">
+                  <h6>Danilo Silva</h6>
+                  <p class="person-position" style="color: rgb(80, 80, 80)">
+                    Junior Developer
+                  </p>
+                  <p>Atuando junto ao desenvolvimento do aplicativo</p>
+                  <ul class="person-content-social clearfix">
+                    <li>
+                      <a target="_blank" href="https://www.linkedin.com/in/danilo-s-a94187242/" title="LinkedIn" style="
+                                border-color: rgb(40, 40, 40);
+                                color: rgb(40, 40, 40);
+                              "><i class="fa fa-linkedin" target="_blank" rel="nofollow"></i></a>
+                    </li>
+                  </ul>
+                </div>
               </div>
             </div>
           </div>
-        </div>
-      </div>
-      
-      <div class="section-content">
-        <div class="container">
-          <div class="row container_person">
 
-            <div class="row">
-                    <div
-                    id="illdy_person-7"
-                    class="col-sm-6 col-sm-offset-0 col-xs-10 col-xs-offset-1 widget_illdy_person"
-                    >
-                    <div class="person clearfix" data-person-color="#4c4c4c">
-                      <div class="person-image">
-                        <img
-                          src="https://appbom.com.br/assets/layout/images/front-page/andrea_soares.png"
-                          alt="Andrea Soares"
-                          title="Andrea Soares"
-                        />
-                      </div>
-                      <div class="person-content">
-                        <h6>Andrea Soares</h6>
-                        <p class="person-position" style="color: rgb(80, 80, 80)">
-                          UX Designer
-                        </p>
-                        <p>Foco na experiência da pessoa usuária para um APP acessível e fácil de usar.</p>
-                        <ul class="person-content-social clearfix">
-                          <li>
-                            <a
-                              target="_blank"
-                              href="https://www.linkedin.com/in/andreamps/"
-                              title="LinkedIn"
-                              style="
+          <div class="row">
+            <div id="illdy_person-7" class="col-sm-6 col-sm-offset-0 col-xs-10 col-xs-offset-1 widget_illdy_person">
+              <div class="person clearfix" data-person-color="#4c4c4c">
+                <div class="person-image">
+                  <img src="https://appbom.com.br/assets/layout/images/front-page/edisio_brandao.png"
+                    alt="Edísio Brandão" title="Edísio Brandão" />
+                </div>
+                <div class="person-content">
+                  <h6>Edísio Brandão</h6>
+                  <p class="person-position" style="color: rgb(80, 80, 80)">
+                    CEO
+                  </p>
+                  <p>Gerenciamento do negócio e engajamento do time</p>
+                  <ul class="person-content-social clearfix">
+                    <li>
+                      <a target="_blank" href="https://www.linkedin.com/in/edisiobrandao/" title="LinkedIn" style="
                                 border-color: rgb(40, 40, 40);
                                 color: rgb(40, 40, 40);
-                              "
-                              ><i
-                                class="fa fa-linkedin"
-                                target="_blank"
-                                rel="nofollow"
-                              ></i
-                            ></a>
-                          </li>
-                        </ul>
-                      </div>
-                    </div>
+                              "><i class="fa fa-linkedin" target="_blank" rel="nofollow"></i></a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div id="illdy_person-7" class="col-sm-6 col-sm-offset-0 col-xs-10 col-xs-offset-1 widget_illdy_person">
+              <div class="person clearfix" data-person-color="#4c4c4c">
+                <div class="person-image">
+                  <div class="person-image">
+                    <img src="https://appbom.com.br/assets/layout/images/front-page/Izadora_Zdanowsky.png"
+                      alt="Izadora Zdanowsky" title="Izadora Zdanowsky" />
                   </div>
-                  <div
-                    id="illdy_person-7"
-                    class="col-sm-6 col-sm-offset-0 col-xs-10 col-xs-offset-1 widget_illdy_person"
-                  >
-                    <div class="person clearfix" data-person-color="#4c4c4c">
-                      <div class="person-image">
-                        <img
-                          src="./assets/layout/images/front-page/danilo_silva.png"
-                          alt="Danilo Silva"
-                          title="Danilo Silva"
-                        />
-                      </div>
-                      <div class="person-content">
-                        <h6>Danilo Silva</h6>
-                        <p class="person-position" style="color: rgb(80, 80, 80)">
-                          Junior Developer 
-                        </p>
-                        <p>Atuando junto ao desenvolvimento do aplicativo</p>
-                        <ul class="person-content-social clearfix">
-                          <li>
-                            <a
-                              target="_blank"
-                              href="https://www.linkedin.com/in/danilo-s-a94187242/"
-                              title="LinkedIn"
-                              style="
+                </div>
+                <div class="person-content">
+                  <h6>Izadora Zdanowsky</h6>
+                  <p class="person-position" style="color: rgb(80, 80, 80)">
+                    Data Analyst
+                  </p>
+                  <p>Análise de dados, interpretação e exposição de informações</p>
+                  <ul class="person-content-social clearfix">
+                    <li>
+                      <a target="_blank" href="https://www.linkedin.com/in/izadorazdanowsky/" title="LinkedIn" style="
                                 border-color: rgb(40, 40, 40);
                                 color: rgb(40, 40, 40);
-                              "
-                              ><i
-                                class="fa fa-linkedin"
-                                target="_blank"
-                                rel="nofollow"
-                              ></i
-                            ></a>
-                          </li>
-                        </ul>
-                      </div>
-                    </div>
-                  </div>
-                  </div>
+                              "><i class="fa fa-linkedin" target="_blank" rel="nofollow"></i></a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
 
-                  <div class="row">
-                    <div
-                    id="illdy_person-7"
-                    class="col-sm-6 col-sm-offset-0 col-xs-10 col-xs-offset-1 widget_illdy_person"
-                    >
-                    <div class="person clearfix" data-person-color="#4c4c4c">
-                      <div class="person-image">
-                        <img
-                        src="https://appbom.com.br/assets/layout/images/front-page/edisio_brandao.png"
-                        alt="Edísio Brandão"
-                        title="Edísio Brandão"
-                        />
-                      </div>
-                      <div class="person-content">
-                        <h6>Edísio Brandão</h6>
-                        <p class="person-position" style="color: rgb(80, 80, 80)">
-                          CEO
-                        </p>
-                        <p>Gerenciamento do negócio e engajamento do time</p>
-                        <ul class="person-content-social clearfix">
-                          <li>
-                            <a
-                              target="_blank"
-                              href="https://www.linkedin.com/in/edisiobrandao/"
-                              title="LinkedIn"
-                              style="
+          <div class="row">
+            <div id="illdy_person-7" class="col-sm-6 col-sm-offset-0 col-xs-10 col-xs-offset-1 widget_illdy_person">
+              <div class="person clearfix" data-person-color="#4c4c4c">
+                <div class="person-image">
+                  <img src="https://appbom.com.br/assets/layout/images/front-page/Joao_Eduardo_brandao.jpg"
+                    alt="João Eduardo" title="João Eduardo" />
+                </div>
+                <div class="person-content">
+                  <h6>João Eduardo</h6>
+                  <p class="person-position" style="color: rgb(80, 80, 80)">
+                    Wealth Management
+                  </p>
+                  <p>
+                    Gestão financeira dos recursos do negócio
+                  </p>
+                  <ul class="person-content-social clearfix">
+                    <li>
+                      <a target="_blank" href="https://www.linkedin.com/in/jo%C3%A3o-eduardo-sousa-6921671b4/"
+                        title="LinkedIn" style="
                                 border-color: rgb(40, 40, 40);
                                 color: rgb(40, 40, 40);
-                              "
-                              ><i
-                                class="fa fa-linkedin"
-                                target="_blank"
-                                rel="nofollow"
-                              ></i
-                            ></a>
-                          </li>
-                        </ul>
-                      </div>
-                    </div>
-                  </div>
-                  <div
-                    id="illdy_person-7"
-                    class="col-sm-6 col-sm-offset-0 col-xs-10 col-xs-offset-1 widget_illdy_person"
-                  >
-                    <div class="person clearfix" data-person-color="#4c4c4c">
-                      <div class="person-image">
-                        <div class="person-image">
-                          <img
-                            src="https://appbom.com.br/assets/layout/images/front-page/Izadora_Zdanowsky.png"
-                            alt="Izadora Zdanowsky"
-                            title="Izadora Zdanowsky"
-                          />
-                        </div>
-                      </div>
-                      <div class="person-content">
-                        <h6>Izadora Zdanowsky</h6>
-                        <p class="person-position" style="color: rgb(80, 80, 80)">
-                          Data Analyst 
-                        </p>
-                        <p>Análise de dados, interpretação e exposição de informações</p>
-                        <ul class="person-content-social clearfix">
-                          <li>
-                            <a
-                              target="_blank"
-                              href="https://www.linkedin.com/in/izadorazdanowsky/"
-                              title="LinkedIn"
-                              style="
-                                border-color: rgb(40, 40, 40);
-                                color: rgb(40, 40, 40);
-                              "
-                              ><i
-                                class="fa fa-linkedin"
-                                target="_blank"
-                                rel="nofollow"
-                              ></i
-                            ></a>
-                          </li>
-                        </ul>
-                      </div>
-                    </div>
-                  </div>
-                  </div>
+                              "><i class="fa fa-linkedin" target="_blank" rel="nofollow"></i></a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
 
-                  <div class="row">
-                    <div
-                    id="illdy_person-7"
-                    class="col-sm-6 col-sm-offset-0 col-xs-10 col-xs-offset-1 widget_illdy_person"
-                    >
-                    <div class="person clearfix" data-person-color="#4c4c4c">
-                      <div class="person-image">
-                        <img
-                          src="https://appbom.com.br/assets/layout/images/front-page/Joao_Eduardo_brandao.jpg"
-                          alt="João Eduardo"
-                          title="João Eduardo"
-                        />
-                      </div>
-                      <div class="person-content">
-                        <h6>João Eduardo</h6>
-                        <p class="person-position" style="color: rgb(80, 80, 80)">
-                          Wealth Management
-                        </p>
-                        <p>
-                          Gestão financeira dos recursos do negócio
-                        </p>
-                        <ul class="person-content-social clearfix">
-                          <li>
-                            <a
-                              target="_blank"
-                              href="https://www.linkedin.com/in/jo%C3%A3o-eduardo-sousa-6921671b4/"
-                              title="LinkedIn"
-                              style="
-                                border-color: rgb(40, 40, 40);
-                                color: rgb(40, 40, 40);
-                              "
-                              ><i
-                                class="fa fa-linkedin"
-                                target="_blank"
-                                rel="nofollow"
-                              ></i
-                            ></a>
-                          </li>
-                        </ul>
-                      </div>
-                    </div>
-                  </div>
-
-                  <div
-                    id="illdy_person-7"
-                    class="col-sm-6 col-sm-offset-0 col-xs-10 col-xs-offset-1 widget_illdy_person"
-                  >
-                    <div class="person clearfix" data-person-color="#4c4c4c">
-                     <div class="person-image">
-                  <img
-                    src="https://appbom.com.br/assets/layout/images/front-page/katucha_coelho.png"
-                    alt="Katucha Coelho"
-                    title="Katucha Coelho"
-                  />
+            <div id="illdy_person-7" class="col-sm-6 col-sm-offset-0 col-xs-10 col-xs-offset-1 widget_illdy_person">
+              <div class="person clearfix" data-person-color="#4c4c4c">
+                <div class="person-image">
+                  <img src="https://appbom.com.br/assets/layout/images/front-page/katucha_coelho.png"
+                    alt="Katucha Coelho" title="Katucha Coelho" />
                 </div>
                 <div class="person-content">
                   <h6>Katucha Coelho</h6>
@@ -1101,268 +795,177 @@
                   <p>
                     Amplo conhecimento do mercado para fazer nosso projeto voar!
                   </p>
-                        <ul class="person-content-social clearfix">
-                          <li>
-                            <a
-                              target="_blank"
-                              href="https://www.linkedin.com/in/katucha-coelho-a37918a4/"
-                              title="LinkedIn"
-                              style="
+                  <ul class="person-content-social clearfix">
+                    <li>
+                      <a target="_blank" href="https://www.linkedin.com/in/katucha-coelho-a37918a4/" title="LinkedIn"
+                        style="
                                 border-color: rgb(40, 40, 40);
                                 color: rgb(40, 40, 40);
-                              "
-                              ><i
-                                class="fa fa-linkedin"
-                                target="_blank"
-                                rel="nofollow"
-                              ></i
-                            ></a>
-                          </li>
-                        </ul>
-                      </div>
-                    </div>
-                  </div>
-                  </div>
-
-                  <div class="row">
-                    <div
-                    id="illdy_person-7"
-                    class="col-sm-6 col-sm-offset-0 col-xs-10 col-xs-offset-1 widget_illdy_person"
-                    >
-                    <div class="person clearfix" data-person-color="#4c4c4c">
-                      <div class="person-image">
-                        <img
-                          src="https://appbom.com.br/assets/layout/images/front-page/marcos_santos.png"
-                          alt="Marcos Santos"
-                          title="Marcos Santos"
-                        />
-                      </div>
-                      <div class="person-content">
-                        <h6>Marcos Santos</h6>
-                        <p class="person-position" style="color: rgb(80, 80, 80)">
-                          Software Engineer
-                        </p>
-                        <p>Desenvolvedor focado no nosso MVP</p>
-                        <ul class="person-content-social clearfix">
-                          <li>
-                            <a
-                              target="_blank"
-                              href="https://www.linkedin.com/in/massilva/"
-                              title="LinkedIn"
-                              style="
-                                border-color: rgb(40, 40, 40);
-                                color: rgb(40, 40, 40);
-                              "
-                              ><i
-                                class="fa fa-linkedin"
-                                target="_blank"
-                                rel="nofollow"
-                              ></i
-                            ></a>
-                          </li>
-                        </ul>
-                      </div>
-                    </div>
-                  </div>
-                  <div
-                    id="illdy_person-7"
-                    class="col-sm-6 col-sm-offset-0 col-xs-10 col-xs-offset-1 widget_illdy_person"
-                  >
-                    <div class="person clearfix" data-person-color="#4c4c4c">
-                      <div class="person-image">
-                        <img
-                          src="https://appbom.com.br/assets/layout/images/front-page/vicente_maciel.png"
-                          alt="Vicente Maciel Jr."
-                          title="Vicente Maciel Jr."
-                        />
-                      </div>
-                      <div class="person-content">
-                        <h6>Vicente Maciel Jr.</h6>
-                        <p class="person-position" style="color: rgb(80, 80, 80)">
-                          Software Engineer
-                        </p>
-                        <p>Infraestrutura e segurança</p>
-                        <ul class="person-content-social clearfix">
-                          <li>
-                            <a
-                              target="_blank"
-                              href="https://www.linkedin.com/in/vicentejunior/"
-                              title="LinkedIn"
-                              style="
-                                border-color: rgb(40, 40, 40);
-                                color: rgb(40, 40, 40);
-                              "
-                              ><i
-                                class="fa fa-linkedin"
-                                target="_blank"
-                                rel="nofollow"
-                              ></i
-                            ></a>
-                          </li>
-                        </ul>
-                      </div>
-                    </div>
-                  </div>
-                  </div>
-
-          </div>
-          </div>      
-      </div>
-    </section>
-    <section id="contact-us" class="front-page-section">
-      <div class="section-header">
-        <div class="container">
-          <div class="row">
-            <div class="col-sm-12">
-              <h3>CONTATOS</h3>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="section-content">
-        <div class="container">
-          <div class="row">
-            <div class="col-sm-12">
-              <div class="row" style="margin-bottom: 45px">
-                <div class="col-sm-4">
-                  <div class="contact-us-box">
-                    <div
-                      class="box-left"
-                      data-customizer="box-left-address-title"
-                    >
-                      Endereço
-                    </div>
-                    <div class="box-right">
-                      <span
-                        class="box-right-row"
-                        data-customizer="contact-us-address-1"
-                        >Rua da Taquara, 78A
-                      </span>
-                      <span
-                        class="box-right-row"
-                        data-customizer="contact-us-address-2"
-                        >Salvador, Bahia - Brasil</span
-                      >
-                    </div>
-                  </div>
-                </div>
-                <div class="col-sm-5">
-                  <div class="contact-us-box">
-                    <div
-                      class="box-left"
-                      data-customizer="box-left-customer-support-title"
-                    >
-                      Quer saber mais?<br>Fale com a gente!
-                    </div>
-                    <div class="box-right">
-                      
-                        <a
-                          href="mailto:appbom.contato@gmail.com"
-                          title="appbom.contato@gmail.com"
-                        ><i class="fa fa-envelope"></i> appbom.contato@gmail.com</a><br>
-                        <a href="https://www.linkedin.com/company/app-bom" title="LinkedIn" target="_blank"
-                      ><i class="fa fa-linkedin"></i> /appbom</a></span>
-                                          </div>
-                  </div>
-                </div>
-                <div class="col-sm-3">
-                  <div class="contact-us-social">
-                    <img src="https://www.appbom.com.br/assets/layout/images/front-page/stores.png" width="300px" height="auto">
-                  </div>
+                              "><i class="fa fa-linkedin" target="_blank" rel="nofollow"></i></a>
+                    </li>
+                  </ul>
                 </div>
               </div>
             </div>
           </div>
-         
+
+          <div class="row">
+            <div id="illdy_person-7" class="col-sm-6 col-sm-offset-0 col-xs-10 col-xs-offset-1 widget_illdy_person">
+              <div class="person clearfix" data-person-color="#4c4c4c">
+                <div class="person-image">
+                  <img src="https://appbom.com.br/assets/layout/images/front-page/marcos_santos.png" alt="Marcos Santos"
+                    title="Marcos Santos" />
+                </div>
+                <div class="person-content">
+                  <h6>Marcos Santos</h6>
+                  <p class="person-position" style="color: rgb(80, 80, 80)">
+                    Software Engineer
+                  </p>
+                  <p>Desenvolvedor focado no nosso MVP</p>
+                  <ul class="person-content-social clearfix">
+                    <li>
+                      <a target="_blank" href="https://www.linkedin.com/in/massilva/" title="LinkedIn" style="
+                                border-color: rgb(40, 40, 40);
+                                color: rgb(40, 40, 40);
+                              "><i class="fa fa-linkedin" target="_blank" rel="nofollow"></i></a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
             </div>
+            <div id="illdy_person-7" class="col-sm-6 col-sm-offset-0 col-xs-10 col-xs-offset-1 widget_illdy_person">
+              <div class="person clearfix" data-person-color="#4c4c4c">
+                <div class="person-image">
+                  <img src="https://appbom.com.br/assets/layout/images/front-page/vicente_maciel.png"
+                    alt="Vicente Maciel Jr." title="Vicente Maciel Jr." />
+                </div>
+                <div class="person-content">
+                  <h6>Vicente Maciel Jr.</h6>
+                  <p class="person-position" style="color: rgb(80, 80, 80)">
+                    Software Engineer
+                  </p>
+                  <p>Infraestrutura e segurança</p>
+                  <ul class="person-content-social clearfix">
+                    <li>
+                      <a target="_blank" href="https://www.linkedin.com/in/vicentejunior/" title="LinkedIn" style="
+                                border-color: rgb(40, 40, 40);
+                                color: rgb(40, 40, 40);
+                              "><i class="fa fa-linkedin" target="_blank" rel="nofollow"></i></a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </section>
+  <section id="contact-us" class="front-page-section">
+    <div class="section-header">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12">
+            <h3>CONTATOS</h3>
           </div>
         </div>
       </div>
-    </section>
-   
-    <div class="bottom-footer">
+    </div>
+    <div class="section-content">
       <div class="container">
-        <p class="copyright">
-          <span class="bottom-copyright" data-customizer="copyright-credit"
-            >© Copyright 2023. All Rights Reserved. APP B.O.M</span
-          >
-        </p>
+        <div class="row">
+          <div class="col-sm-12">
+            <div class="row" style="margin-bottom: 45px">
+              <div class="col-sm-4">
+                <div class="contact-us-box">
+                  <div class="box-left" data-customizer="box-left-address-title">
+                    Endereço
+                  </div>
+                  <div class="box-right">
+                    <span class="box-right-row" data-customizer="contact-us-address-1">Rua da Taquara, 78A
+                    </span>
+                    <span class="box-right-row" data-customizer="contact-us-address-2">Salvador, Bahia - Brasil</span>
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-5">
+                <div class="contact-us-box">
+                  <div class="box-left" data-customizer="box-left-customer-support-title">
+                    Quer saber mais?<br>Fale com a gente!
+                  </div>
+                  <div class="box-right">
+
+                    <a href="mailto:appbom.contato@gmail.com" title="appbom.contato@gmail.com"><i
+                        class="fa fa-envelope"></i> appbom.contato@gmail.com</a><br>
+                    <a href="https://www.linkedin.com/company/app-bom" title="LinkedIn" target="_blank"><i
+                        class="fa fa-linkedin"></i> /appbom</a></span>
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-3">
+                <div class="contact-us-social">
+                  <img src="https://www.appbom.com.br/assets/layout/images/front-page/stores.png" width="300px"
+                    height="auto">
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
       </div>
     </div>
+    </div>
+    </div>
+  </section>
 
-    <script type="text/javascript" id="contact-form-7-js-extra">
-      var wpcf7 = {
-        api: {
-          root: "https:\/\/colorlibhub.com\/illdy\/wp-json\/",
-          namespace: "contact-form-7\/v1",
-        },
-        cached: "1",
-      };
-      
-    </script>
-    <script
-      type="text/javascript"
-      src="assets/core.min.js"
-      id="jquery-ui-core-js"
-    ></script>
-    <script
-      type="text/javascript"
-      src="assets/progressbar.min.js"
-      id="jquery-ui-progressbar-js"
-    ></script>
-    <script
-      type="text/javascript"
-      src="assets/layout/js/bootstrap/bootstrap.min.js"
-      id="illdy-bootstrap-js"
-    ></script>
-    <script
-      type="text/javascript"
-      src="assets/layout/js/owl-carousel/owl-carousel.min.js"
-      id="illdy-owl-carousel-js"
-    ></script>
-    <script
-      type="text/javascript"
-      src="assets/layout/js/count-to/count-to.min.js"
-      id="illdy-count-to-js"
-    ></script>
-    <script
-      type="text/javascript"
-      src="assets/layout/js/visible/visible.min.js"
-      id="illdy-visible-js"
-    ></script>
-    <script
-      type="text/javascript"
-      src="assets/layout/js/parallax/parallax.min.js"
-      id="illdy-parallax-js"
-    ></script>
-    <script
-      type="text/javascript"
-      src="assets/layout/js/plugins.min.js"
-      id="illdy-plugins-js"
-    ></script>
-    <script
-      type="text/javascript"
-      src="assets/layout/js/scripts.min.js"
-      id="illdy-scripts-js"
-    ></script>
+  <div class="bottom-footer">
+    <div class="container">
+      <p class="copyright">
+        <span class="bottom-copyright" data-customizer="copyright-credit">© Copyright 2023. All Rights Reserved. APP
+          B.O.M</span>
+      </p>
+    </div>
+  </div>
 
-    <script id="illdy-scripts-js-after" type="text/javascript">
-      if (jQuery(".blog-carousel > .illdy-blog-post").length > 3) {
-        jQuery(".blog-carousel").owlCarousel({
-          items: 3,
-          loop: true,
-          dots: false,
-          nav: true,
-          navText: [
-            '<i class="fa fa-angle-left" aria-hidden="true"></i>',
-            '<i class="fa fa-angle-right" aria-hidden="true"></i>',
-          ],
-          responsive: { 0: { items: 1 }, 480: { items: 2 }, 900: { items: 3 } },
-        });
-      }
-    </script>
-  </body>
+  <script type="text/javascript" id="contact-form-7-js-extra">
+    var wpcf7 = {
+      api: {
+        root: "https:\/\/colorlibhub.com\/illdy\/wp-json\/",
+        namespace: "contact-form-7\/v1",
+      },
+      cached: "1",
+    };
 
-  
-  
+  </script>
+  <script type="text/javascript" src="assets/core.min.js" id="jquery-ui-core-js"></script>
+  <script type="text/javascript" src="assets/progressbar.min.js" id="jquery-ui-progressbar-js"></script>
+  <script type="text/javascript" src="assets/layout/js/bootstrap/bootstrap.min.js" id="illdy-bootstrap-js"></script>
+  <script type="text/javascript" src="assets/layout/js/owl-carousel/owl-carousel.min.js"
+    id="illdy-owl-carousel-js"></script>
+  <script type="text/javascript" src="assets/layout/js/count-to/count-to.min.js" id="illdy-count-to-js"></script>
+  <script type="text/javascript" src="assets/layout/js/visible/visible.min.js" id="illdy-visible-js"></script>
+  <script type="text/javascript" src="assets/layout/js/parallax/parallax.min.js" id="illdy-parallax-js"></script>
+  <script type="text/javascript" src="assets/layout/js/plugins.min.js" id="illdy-plugins-js"></script>
+  <script type="text/javascript" src="assets/layout/js/scripts.min.js" id="illdy-scripts-js"></script>
+
+  <script id="illdy-scripts-js-after" type="text/javascript">
+    if (jQuery(".blog-carousel > .illdy-blog-post").length > 3) {
+      jQuery(".blog-carousel").owlCarousel({
+        items: 3,
+        loop: true,
+        dots: false,
+        nav: true,
+        navText: [
+          '<i class="fa fa-angle-left" aria-hidden="true"></i>',
+          '<i class="fa fa-angle-right" aria-hidden="true"></i>',
+        ],
+        responsive: { 0: { items: 1 }, 480: { items: 2 }, 900: { items: 3 } },
+      });
+    }
+  </script>
+</body>
+
+
+
 </html>

@@ -3218,8 +3218,8 @@ a.illdy-top i {
 }
 
 .btn_fixed{
-    height: 8rem;
-    width: 8rem;
+    height: 2.5rem;
+    width: 2.5rem;
     background-color: rgba(241, 210, 4, 0.9);
     position: fixed;
     right: 20px;
