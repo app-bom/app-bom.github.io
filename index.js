@@ -16,6 +16,9 @@ $(document).ready(function () {
     const $secaoContatos = $("#contact-us")
     const $secaoMenu = $(".top-header")
     const $btnSubir = $(".btn_fixed")
+    const data = new Date()
+    $('#copyright-year').html(data.getUTCFullYear())    
+
 
     $buttonProjeto.on('click', irPara.bind({}, $secaoProjeto))
     $buttonSolucao.on('click', irPara.bind({}, $secaoSolucao))
@@ -23,7 +26,7 @@ $(document).ready(function () {
     
     $buttonNoticias.on('click',irPara.bind({}, $secaoNoticias))
     $buttonTime.on('click',irPara.bind({}, $secaoTime))
-    $buttonContato.on('click',irPara.bind({}, $secaoTime))
+    $buttonContato.on('click',irPara.bind({}, $secaoContatos))
     $btnSubir.on('click',irPara.bind({}, $secaoMenu))
 
     $(window).on('scroll', function () {
