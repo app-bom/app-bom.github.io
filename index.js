@@ -16,6 +16,7 @@ $(document).ready(function () {
     const $secaoContatos = $("#contact-us")
     const $secaoMenu = $(".top-header")
     const $btnSubir = $(".btn_fixed")
+    const $btnMyTeam = $("#btn_my_team")
     const data = new Date()
     $('#copyright-year').html(data.getUTCFullYear())    
 
@@ -23,11 +24,11 @@ $(document).ready(function () {
     $buttonProjeto.on('click', irPara.bind({}, $secaoProjeto))
     $buttonSolucao.on('click', irPara.bind({}, $secaoSolucao))
     $buttonProblema.on('click',irPara.bind({}, $secaoProblema))
-    
     $buttonNoticias.on('click',irPara.bind({}, $secaoNoticias))
     $buttonTime.on('click',irPara.bind({}, $secaoTime))
     $buttonContato.on('click',irPara.bind({}, $secaoContatos))
     $btnSubir.on('click',irPara.bind({}, $secaoMenu))
+    $btnMyTeam.on('click', irPara.bind({}, $secaoTime))
 
     $(window).on('scroll', function () {
         if (window.scrollY == 0) {
